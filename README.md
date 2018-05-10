@@ -1,1 +1,3 @@
-# borica.github.io
+# Sonic
+
+Dummy Sonic Game
