@@ -44,7 +44,8 @@ document.addEventListener('DOMContentLoaded',function(event){
 
 /* SweetScroll Settings */
 var scroller = new SweetScroll({
-    trigger: 'a[href^="#"]'
+    trigger: 'a[href^="#"]',
+    offset: -56
 });
 
 document.getElementsById("linkHome, linkSection1, linkSection2, linkSection3").addEventListener("click", function(){
