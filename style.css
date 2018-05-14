@@ -1,7 +1,14 @@
+/* Removes Padding */
 .noPadding {
     margin: 0px !important;
 }
 
+/* Fix for the Fixed Navbar spacing */
+header {
+    margin-top: 56px;
+}
+
+/* First Section of the Page */
 .landingJumbo {
     position: relative;
     height: calc(100vh - 56px);
@@ -9,11 +16,18 @@
     background-size: auto auto;
 }
 
-.fullHeightJumbot{
+/* Sets to full height of the current viewport */
+.fullHeight {
     height: 100vh;
 }
 
-.jumboOverlay{
+/* Sets to full height minus the size of the nav */
+.fullHeightNav {
+    height: calc(100vh - 56px);
+}
+
+/* Creates a darken overlay above an element */
+.jumboOverlay {
     background: rgba(0, 0, 0, .87);
     position: absolute;
     color: white;
@@ -25,14 +39,17 @@
     pointer-events: none;
 }
 
+/* General Styles */
+
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 } 
 
 .bg-black {
     background-color: black;
 }
 
+/* Styling the Scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -44,4 +61,18 @@ body {
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: lightgray;
+}
+
+/* Animated Text */
+
+.animatedCaret {
+    margin-left: 5px;
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
 }

@@ -12,36 +12,34 @@
         <title>Hello, world!</title>
         
     </head>
-    <body>
-        
-        
+    <body data-spy="scroll" data-target="#navbar" data-offset="0">
         <header>
             <!--Navbar-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <nav id="navbar" role="navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#">Tiago Boriça</a>
+                    <a class="navbar-brand" id="animatedText" href="#"></a>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" id="linkHome" href="#top" data-scroll>Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#jumbo1" data-scroll>Jumbo 1</a>
+                            <a class="nav-link" id="linkSection1" href="#jumbo1" data-scroll>Jumbo 1</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#jumbo2" data-scroll>Jumbo 2</a>
+                            <a class="nav-link" id="linkSection2" href="#jumbo2" data-scroll>Jumbo 2</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#jumbo3" data-scroll>Jumbo 3</a>
+                            <a class="nav-link" id="linkSection3" href="#jumbo3" data-scroll>Jumbo 3</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        
+
             <!--Lading-->
-            <div class="jumbotron jumbotron-fluid bg-dark text-white landingJumbo noPadding">
+            <div id="top" class="jumbotron jumbotron-fluid bg-dark text-white landingJumbo noPadding">
                 <div class="container">
                     <div class="jumboOverlay">
                         <div class="row vertical-align">
@@ -60,7 +58,7 @@
         <!--Main-->
         <main role="main">
             <section role="">
-                <div id="jumbo1" class="jumbotron jumbotron-fluid noPadding fullHeightJumbot">
+                <div id="jumbo1" class="jumbotron jumbotron-fluid noPadding fullHeightNav">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
@@ -76,7 +74,7 @@
                 </div>
             </section>
             <section>
-                <div id="jumbo2" class="jumbotron jumbotron-fluid bg-white noPadding fullHeightJumbot">
+                <div id="jumbo2" class="jumbotron jumbotron-fluid bg-white noPadding fullHeightNav">
                     <div class="row">
                             <div class="col-md-4">
                             
@@ -91,7 +89,7 @@
                 </div>
             </section>
             <section>
-                <div id="jumbo3" class="jumbotron jumbotron-fluid noPadding fullHeightJumbot">
+                <div id="jumbo3" class="jumbotron jumbotron-fluid noPadding fullHeightNav">
                    <div class="row">
                             <div class="col-md-4">
                             
