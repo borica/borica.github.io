@@ -47,19 +47,3 @@ var scroller = new SweetScroll({
     trigger: 'a[href^="#"]',
     offset: -56
 });
-
-document.getElementsById("linkHome, linkSection1, linkSection2, linkSection3").addEventListener("click", function(){
-    document.getElementById("linkHome").classList.add("active");
-});
-
-document.getElementById("linkSection1").addEventListener("click", function(){
-    document.getElementById("linkSection1").classList.add("active");
-});
-
-document.getElementById("linkSection2").addEventListener("click", function(){
-    document.getElementById("linkSection2").classList.add("active");
-});
-
-document.getElementById("linkSection3").addEventListener("click", function(){
-    document.getElementById("linkSection3").classList.add("active");
-});
