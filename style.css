@@ -1,0 +1,12 @@
+.noPadding {
+    margin: 0px !important;
+}
+
+.landingJumbo {
+    position: relative;
+    height: calc(100vh - 56px);
+}
+
+body {
+    overflow-x: hidden;
+} 
