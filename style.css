@@ -6,11 +6,15 @@
     position: relative;
     height: calc(100vh - 56px);
     background-image: url('assets/coding-bg-1.jpg');
-    background-size: auto 100vh;
+    background-size: auto auto;
+}
+
+.fullHeightJumbot{
+    height: 100vh;
 }
 
 .jumboOverlay{
-    background: rgba(0, 0, 0, .55);
+    background: rgba(0, 0, 0, .87);
     position: absolute;
     color: white;
     top: 0;
