@@ -1,5 +1,20 @@
+/*
+    $.getJSON( "navbar.json", function( data ) {
+        var items = [];
+        $.each( data, function( key, val ) {
+            items.push( "<li id='" + key + "'>" + val + "</li>" );
+        });
+
+        $( "<ul/>", {
+            "class": "my-new-list",
+            html: items.join( "" )
+        }).appendTo( "body" );
+    });
+*/
+
 /* Animated Text */
 document.addEventListener('DOMContentLoaded',function(event){
+
   // array with texts to type in typewriter
   var dataText = [ "Tiago Boriça"];
 

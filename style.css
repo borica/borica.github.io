@@ -13,7 +13,7 @@ header {
     position: relative;
     height: calc(100vh - 56px);
     background-image: url('assets/coding-bg-1.jpg');
-    background-size: auto auto;
+    background-size: auto 100vh;
 }
 
 /* Sets to full height of the current viewport */
@@ -28,7 +28,7 @@ header {
 
 /* Creates a darken overlay above an element */
 .jumboOverlay {
-    background: rgba(0, 0, 0, .87);
+    background: rgba(0, 0, 0, .80);
     position: absolute;
     color: white;
     top: 0;
