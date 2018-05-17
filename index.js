@@ -62,3 +62,7 @@ var scroller = new SweetScroll({
     trigger: 'a[href^="#"]',
     offset: -56
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.h1-reveal');
+sr.reveal('.p-reveal');
