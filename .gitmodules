@@ -1,6 +1,6 @@
 [submodule "assets/sweet-scroll"]
 	path = assets/sweet-scroll
-	url = https://github.com/suyoshiwada/sweet-scroll.git
+	url = https://github.com/tsuyoshiwada/sweet-scroll.git
 	
 [submodule "assets/scrollreveal"]
 	path = assets/scrollreveal
