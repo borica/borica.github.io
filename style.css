@@ -94,13 +94,16 @@ body {
 }
 
 .gradient-focus {
-    position: static;
-    padding: 0px;
+    position: relative;
     width: 100%;
     height: 100vh;
-    margin-bottom: -90px;
     background: #00eff9;
     background: linear-gradient(45deg,#00eff9 1%,#0090d5 50%,#004fb0);
     transform: translateY(-65vh) skewY(-8deg);
     color: #fff;
+}
+
+.avatar-wrapper {
+    position: absolute;
+    top: -250px
 }
