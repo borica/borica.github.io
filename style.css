@@ -70,29 +70,33 @@ body {
 }
 
 /* Animated Text */
-
 .animatedCaret {
     margin-left: 5px;
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
 
+/* Caret Animation */
 @keyframes caret {
     50% {
         border-color: transparent;
     }
 }
 
+/* Prevent Content to Overflow out of the Jumbo Element */
 .jumbotron {
     overflow: hidden;    
 }
 
+
+/* Fixer for the .gradient-focus element */
 .content-wrapper {
     z-index: 1;
     margin-top: 28vh;
     text-shadow: 2px 1px rgba(0,0,0,0.6);
 }
 
+/* Gradient Background Focus */
 .gradient-focus {
     position: relative;
     width: 100%;
@@ -103,16 +107,18 @@ body {
     color: #fff;
 }
 
+/* Container for the avatar image */
 .avatar-wrapper {
     position: absolute;
     top: -250px
 }
 
+/* SVG Background */
 .svg-pattern-background {
     position: relative;
     z-index: 1;
 }
-
+ /* SVG Background Fixer */
 .svg-pattern-background:before {
     background-image: url('/assets/pattern.svg');
     position: absolute;
