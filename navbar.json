@@ -1,18 +1,20 @@
 //NavBar Texts
-navbar = [
-    //English Links
-    {
-        "link0": "Top",
-        "link1": "",
-        "link2": "",
-        "link3": "",
+{
+    "nav" : [
+        //English Links
+        {
+            "link0": "Top",
+            "link1": "",
+            "link2": "",
+            "link3": ""
+        },
+        //Portuguese Links
+        {
+            "link0": "Subir",
+            "link1": "",
+            "link2": "",
+            "link3": ""
+        }
+    ]
+}
 
-    },
-    //Portuguese Links
-    {
-        "link0": "Subir",
-        "link1": "",
-        "link2": "",
-        "link3": "",
-    }
-];

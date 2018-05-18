@@ -18,7 +18,7 @@ header {
 .landingJumbo {
     position: relative;
     height: calc(100vh - 56px);
-    background-image: url('assets/coding-bg-1.jpg');
+    /* background-image: url('assets/coding-bg-1.jpg'); */
     background-size: auto 100vh;
 }
 
@@ -34,7 +34,7 @@ header {
 
 /* Creates a darken overlay above an element */
 .jumboOverlay {
-    background: rgba(0, 0, 0, .84);
+    /* background: rgba(0, 0, 0, .84); */
     position: absolute;
     color: white;
     top: 0;
@@ -104,6 +104,19 @@ body {
     background: #00eff9;
     background: linear-gradient(45deg,#00eff9 1%,#0090d5 50%,#004fb0);
     transform: translateY(-65vh) skewY(-8deg);
+    color: #fff;
+}
+
+/* Gradient Background Focus */
+.gradient-focus-orange {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 100vh;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: skewY(-8deg);
     color: #fff;
 }
 
