@@ -1,4 +1,4 @@
-@import 'bg-colors.css';
+@import 'color-scheme.css';
 @import 'proportions.css';
 
 /* Removes Padding */
@@ -58,12 +58,10 @@ header {
     font-size: 60px;
 }
 
-
 /* General Styles */
 body {
     overflow-x: hidden;
 } 
-
 
 /* Styling the Scrollbar */
 ::-webkit-scrollbar {
@@ -115,37 +113,40 @@ body {
     color: #fff;
 }
 
-.purple-background {
-    background: #41295a;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.blue-background {
-    background: #00eff9;
-    background: linear-gradient(45deg,#00eff9 1%,#0090d5 50%,#004fb0);
-}
-
 /* Container for the avatar image */
 .avatar-wrapper {
-    position: absolute;
-    top: -250px
+    position: relative;
+    height: 250px;
+    width: auto;
 }
 
-/* SVG Background */
-.svg-pattern-background {
+.pointer-box {
     position: relative;
-    z-index: 1;
+    border: 2px solid #263238;
+    box-sizing: border-box;
 }
- /* SVG Background Fixer */
-.svg-pattern-background:before {
-    background-image: url('/assets/pattern.svg');
+
+.pointer-box:after {
     position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .3;
-    z-index: -1;
+    width: 50px;
+    height: 50px;
+    border-top: 0px solid #263238;
+    border-left: 2px solid #263238;
+    border-right: 0px solid #263238;
+    border-bottom: 2px solid #263238;
+    top:calc(50% - 25px);
+    right:100%;
+    margin-right: -24px;
+    content: '';
+    transform: rotate(45deg);
+    background: #E9ECEF;
+
+}
+
+.pointer-box > p {
+    margin-top: 25px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 22px; 
+    color: #263238;
 }

@@ -20,7 +20,7 @@
         <link rel="icon" type="image/png" sizes="96x96"     href="/assets/icon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16"     href="/assets/icon/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -40,7 +40,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" id="animatedText" href="#"></a>
+                    <!-- <a class="navbar-brand" id="animatedText" href="#"></a> -->
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" id="linkHome" href="#top" data-scroll>Home</a>
@@ -73,13 +73,13 @@
             <div id="top" class="jumbotron jumbotron-fluid landingJumbo noPadding">
                 <div class="container">
                     <div class="jumboOverlay">
-                        <div class="row vertical-align verticalAlign">
-                            <div class="col-md-5 offset-md-1" style="border: 2px solid white;">
-                                <div class="col-md-12">
-                                    <h1 class="col-md-12 display-4 text-white overlay-header">Tiago Boriça</h1>
+                        <div class="row">
+                            <div class="col-md-5 offset-md-1" style="border: 2px solid white; margin-top:150px;">
+                                <div>
+                                    <h1 class="col-md-12 display-4 text-white overlay-header text-center">Tiago Boriça</h1>
                                 </div>
-                                <div class="col-md-12 offset-md-1 text-white">
-                                    <h2 class="ml-4 overlay-sub-header">Web Developer</h2>
+                                <div>
+                                    <h2 class="ml-4 overlay-sub-header text-white text-center">Web Developer</h2>
                                 </div>
                             </div>
                         </div>
@@ -91,8 +91,8 @@
         <!--Main-->
         <main role="main">
             <section> 
-                <div id="jumbo1" class="jumbotron jumbotron-fluid noPadding fullHeightNav svg-pattern-background">
-                    <div class="container-fluid">
+                <div id="jumbo1" class="jumbotron jumbotron-fluid noPadding fullHeightNav">
+                   <!--  <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-4 content-wrapper">
                                 <img src="/assets/avatar.svg" class="avatar-wrapper">
@@ -107,18 +107,34 @@
                                     Strip steak andouille swine buffalo doner flank ham frankfurter short loin tail hamburger salami jowl leberkas. Pig tail pork alcatra bacon. Alcatra pig jerky strip steak bresaola, t-bone kevin prosciutto ham hock. Buffalo frankfurter pig, sausage sirloin drumstick t-bone ground round pork chop spare ribs chuck leberkas jerky burgdoggen. Ball tip shankle corned beef meatball. Shank leberkas buffalo salami ground round capicola pastrami prosciutto rump ham pork belly cow kielbasa chicken corned beef.
                                 </p>
                             </div>
-                        
                         </div>
                     </div>
-                    <div class="gradient-focus d-none d-lg-block blue-background"></div>
+                    <div class="gradient-focus d-none d-lg-block blue-background"></div> -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="avatar-wrapper" src="assets/man64.svg"/>
+                            </div> 
+                            <div class="col-md-9">
+                                <div class="h-100 pointer-box">
+                                    <p>
+                                        Olá, eu sou o Tiago !
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium facere repellendus animi ipsam illum blanditiis assumenda dolorum? Laborum modi debitis, nemo adipisci facere sunt dolore inventore officia laudantium! Nisi, fuga.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="container-focus">
                 <div id="jumbo2" class="jumbotron jumbotron-fluid bg-white noPadding container-focus fullHeightNav svg-pattern-background">
                     <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                             </div>
-                            <div class="col-md-8 content-wrapper text-white">
+                            <div class="col-md-9 content-wrapper text-white">
                                 <h1 class="display-4">Fluid jumbotron</h1>
                                 <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                             </div>
