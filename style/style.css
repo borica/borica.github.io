@@ -1,3 +1,6 @@
+@import 'bg-colors.css';
+@import 'proportions.css';
+
 /* Removes Padding */
 .noPadding {
     margin: 0px !important;
@@ -18,7 +21,8 @@ header {
 .landingJumbo {
     position: relative;
     height: calc(100vh - 56px);
-    /* background-image: url('assets/coding-bg-1.jpg'); */
+    background-color: #263238;
+    /* background-image: url('assets/bg-desk.jpg'); */
     background-size: auto 100vh;
 }
 
@@ -34,9 +38,10 @@ header {
 
 /* Creates a darken overlay above an element */
 .jumboOverlay {
-    /* background: rgba(0, 0, 0, .84); */
+    /* background: rgba(0, 0, 0, .1); */
+    /* font-family: Consolas; */
+    font-family: 'Oswald', sans-serif;
     position: absolute;
-    color: white;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,15 +50,20 @@ header {
     pointer-events: none;
 }
 
-/* General Styles */
+.overlay-header {
+    font-size: 90px;
+}
 
+.overlay-sub-header {
+    font-size: 60px;
+}
+
+
+/* General Styles */
 body {
     overflow-x: hidden;
 } 
 
-.bg-black {
-    background-color: black;
-}
 
 /* Styling the Scrollbar */
 ::-webkit-scrollbar {
@@ -88,7 +98,6 @@ body {
     overflow: hidden;    
 }
 
-
 /* Fixer for the .gradient-focus element */
 .content-wrapper {
     z-index: 1;
@@ -98,26 +107,23 @@ body {
 
 /* Gradient Background Focus */
 .gradient-focus {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #00eff9;
-    background: linear-gradient(45deg,#00eff9 1%,#0090d5 50%,#004fb0);
-    transform: translateY(-65vh) skewY(-8deg);
-    color: #fff;
-}
-
-/* Gradient Background Focus */
-.gradient-focus-orange {
     position: absolute;
     top: 150px;
     width: 100%;
     height: 100vh;
+    transform: skewY(-8deg);
+    color: #fff;
+}
+
+.purple-background {
     background: #41295a;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    transform: skewY(-8deg);
-    color: #fff;
+}
+
+.blue-background {
+    background: #00eff9;
+    background: linear-gradient(45deg,#00eff9 1%,#0090d5 50%,#004fb0);
 }
 
 /* Container for the avatar image */
