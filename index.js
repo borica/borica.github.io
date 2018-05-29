@@ -3,6 +3,9 @@
  // array with texts to type in typewriter
  let dataText = ["Tiago Boriça", "TB"];
 
+// helper for controlling animations
+let lastActive;
+
  // type one text in the typwriter
  // keeps calling itself until the text is finished
  function typeWriter(text, i, fnCallback) {
@@ -65,33 +68,42 @@ function animationTrigger(event){
     liElements.push(value.getElementsByTagName('a'));
   })
 
-  /* Iterating over elements */
-  $.each(liElements, function(indexLi, valueLi){
-    $.each(valueLi, function(indexA, valueA){
-        $.each(valueA.classList, function(indexClass, valueClass){
-          if(valueA.id == "linkHome" && valueClass == "active"){
-            validationHelper.push('true');
-          }else{
-            validationHelper.push('false');
-          }
-        });
-    });
-  });
-  if(validationHelper.includes('true')){
-    //Make the animation for the 'TB' Appears
-    $("#animatedText").fadeOut("slow", function(){
-      StartTextAnimation(1);
-      $("#animatedText").fadeIn("slow");
-    });
-  } else {
-    //Figure out a way to validate if the full logo should animate or just keep frozen
-    $("#animatedText").fadeOut("slow", function(){
-      StartTextAnimation(0);
-      $("#animatedText").fadeIn("slow");
-    });
-  }
+	/* Iterating over elements */
+	$.each(liElements, function(indexLi, valueLi){
+		$.each(valueLi, function(indexA, valueA){
+			$.each(valueA.classList, function(indexClass, valueClass){
+				if(valueClass == "active"){
+					lastActive = valueA.id;
+					console.log('LastActive: ' + lastActive);
+					if(valueA.id == "linkHome"){
+						validationHelper.push('true');
+					}else{
+						validationHelper.push('false');
+					}
+				}
+			});
+		});
+	});
+
+	/* Validation Animation */
+	if(validationHelper.includes('true')){
+		//Make the animation for the 'TB' Appears
+		$("#animatedText").fadeOut("slow", function(){
+			StartTextAnimation(1);
+			$("#animatedText").fadeIn("slow");
+		});
+	} else {
+		//Validates if animates or not depending on section
+		if(lastActive == "linkSection1"){
+			$("#animatedText").fadeOut("slow", function(){
+				StartTextAnimation(0);
+				$("#animatedText").fadeIn("slow");
+			});
+		}
+	}
 }
 
+/* Trigger for the animation control */
 $(window).on('activate.bs.scrollspy', function (event) {
-  animationTrigger(event);
-})
+	animationTrigger(event);
+})	

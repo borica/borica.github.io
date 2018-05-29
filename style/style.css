@@ -6,7 +6,7 @@
     margin: 0px !important;
 }
 
-.verticalAlign{
+.verticalAlign {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -17,6 +17,19 @@ header {
     margin-top: 56px;
 }
 
+/* Branding Div Styling */
+.branding-styling {
+    font-size: 30px;
+    padding: 0;
+    opacity: 0.2;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.branding-styling:hover {
+    opacity: 1;
+}
+
 /* First Section of the Page */
 .landingJumbo {
     position: relative;
@@ -24,6 +37,7 @@ header {
     background-color: #263238;
     /* background-image: url('assets/bg-desk.jpg'); */
     background-size: auto 100vh;
+    height: 40vh;
 }
 
 /* Sets to full height of the current viewport */
@@ -51,11 +65,15 @@ header {
 }
 
 .overlay-header {
-    font-size: 90px;
+    opacity: 0.8; 
+    font-size: 75px;
+    font-family: 'Permanent Marker', sans-serif; 
 }
 
 .overlay-sub-header {
-    font-size: 60px;
+    opacity: 0.8;
+    font-family: 'Permanent Marker', sans-serif; 
+    font-size: 35px;
 }
 
 /* General Styles */
