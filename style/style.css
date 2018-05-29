@@ -6,6 +6,15 @@
     margin: 0px !important;
 }
 
+.ball {
+    height: 600px;
+    width: 600px;
+    border-radius: 90%;
+    background-color: red;
+    position: absolute;
+    z-index: 10;
+}
+
 .verticalAlign {
     position: relative;
     top: 50%;
@@ -38,6 +47,7 @@ header {
     /* background-image: url('assets/bg-desk.jpg'); */
     background-size: auto 100vh;
     height: 40vh;
+    box-shadow: 0 8px 25px -2px rgba(0,0,0,0.3);
 }
 
 /* Sets to full height of the current viewport */

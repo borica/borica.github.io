@@ -105,5 +105,5 @@ function animationTrigger(event){
 
 /* Trigger for the animation control */
 $(window).on('activate.bs.scrollspy', function (event) {
-	animationTrigger(event);
+	/* animationTrigger(event); */
 })	
