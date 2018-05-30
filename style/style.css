@@ -6,19 +6,27 @@
     margin: 0px !important;
 }
 
-.ball {
-    height: 600px;
-    width: 600px;
-    border-radius: 90%;
-    background-color: red;
-    position: absolute;
-    z-index: 10;
+.animationContainer {
+    height: 200px;
+    width: 200px;
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+
+.animationContainer:nth-child(1) {
+    height: 200px;
+    width: 200px;
 }
 
 .verticalAlign {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+svg path {
+    fill: #fff;
 }
 
 /* Fix for the Fixed Navbar spacing */
