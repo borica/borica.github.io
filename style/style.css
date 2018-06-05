@@ -1,3 +1,4 @@
+/* Import Section */
 @import 'color-scheme.css';
 @import 'proportions.css';
 
@@ -25,13 +26,9 @@
     transform: translateY(-50%);
 }
 
-svg path {
-    fill: #fff;
-}
-
 /* Fix for the Fixed Navbar spacing */
 header {
-    margin-top: 56px;
+    /* margin-top: 56px; */
 }
 
 /* Branding Div Styling */
@@ -50,11 +47,9 @@ header {
 /* First Section of the Page */
 .landingJumbo {
     position: relative;
-    height: calc(100vh - 56px);
     background-color: #263238;
-    /* background-image: url('assets/bg-desk.jpg'); */
     background-size: auto 100vh;
-    height: 40vh;
+    height: 45vh;
     box-shadow: 0 8px 25px -2px rgba(0,0,0,0.3);
 }
 
@@ -65,7 +60,8 @@ header {
 
 /* Sets to full height minus the size of the nav */
 .fullHeightNav {
-    height: calc(100vh - 56px);
+    height: calc(100vh - 56px
+    );
 }
 
 /* Creates a darken overlay above an element */
@@ -85,12 +81,14 @@ header {
 .overlay-header {
     opacity: 0.8; 
     font-size: 75px;
-    font-family: 'Permanent Marker', sans-serif; 
+    /* font-family: 'Permanent Marker', sans-serif;  */
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .overlay-sub-header {
     opacity: 0.8;
-    font-family: 'Permanent Marker', sans-serif; 
+    /* font-family: 'Permanent Marker', sans-serif;  */
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 35px;
 }
 
@@ -103,28 +101,15 @@ body {
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 2.6px rgba(0,0,0,0.5); 
 }
- 
+
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: lightgray;
-}
-
-/* Animated Text */
-.animatedCaret {
-    margin-left: 5px;
-    border-right: .05em solid;
-    animation: caret 1s steps(1) infinite;
-}
-
-/* Caret Animation */
-@keyframes caret {
-    50% {
-        border-color: transparent;
-    }
+    height: (100vh - 56px);
 }
 
 /* Prevent Content to Overflow out of the Jumbo Element */

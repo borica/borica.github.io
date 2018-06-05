@@ -48,7 +48,7 @@ let lastActive;
 /* SweetScroll Settings */
 let scroller = new SweetScroll({
     trigger: 'a[href^="#"]',
-    offset: -56
+    offset: -55.2
 });
 
 window.sr = ScrollReveal();
@@ -74,7 +74,6 @@ function animationTrigger(event){
 			$.each(valueA.classList, function(indexClass, valueClass){
 				if(valueClass == "active"){
 					lastActive = valueA.id;
-					console.log('LastActive: ' + lastActive);
 					if(valueA.id == "linkHome"){
 						validationHelper.push('true');
 					}else{
@@ -88,22 +87,26 @@ function animationTrigger(event){
 	/* Validation Animation */
 	if(validationHelper.includes('true')){
 		//Make the animation for the 'TB' Appears
-		$("#animatedText").fadeOut("slow", function(){
+		/* $("#animatedText").fadeOut("slow", function(){
 			StartTextAnimation(1);
-			$("#animatedText").fadeIn("slow");
-		});
+      $("#animatedText").fadeIn("slow"); 
+      
+		}); */
+    /* Make NavDisappear if it's at the top */
+    $('#navbar').fadeOut(200);
 	} else {
 		//Validates if animates or not depending on section
-		if(lastActive == "linkSection1"){
+		/* if(lastActive == "linkSection1"){
 			$("#animatedText").fadeOut("slow", function(){
 				StartTextAnimation(0);
 				$("#animatedText").fadeIn("slow");
 			});
-		}
+    } */
+    $('#navbar').fadeIn(400);
 	}
 }
 
 /* Trigger for the animation control */
 $(window).on('activate.bs.scrollspy', function (event) {
-	/* animationTrigger(event); */
+	animationTrigger(event);
 })	
