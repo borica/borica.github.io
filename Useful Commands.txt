@@ -1,2 +1,0 @@
-//Update Git Submodules
-git submodule update --init --recursive
