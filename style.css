@@ -1,4 +1,4 @@
-.card-header {
+.card-zheader {
 	cursor: pointer;
 }
 
@@ -36,6 +36,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
 .absolute {
     position: absolute;
     top: 0;
@@ -69,6 +75,10 @@ h2 {
 .main-container {
     height: 100vh;
 }	
+
+.pointer {
+	cursor: pointer;
+}
 
 .gradient-container {
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
