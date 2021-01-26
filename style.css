@@ -2,6 +2,10 @@
 	cursor: pointer;
 }
 
+.dark-card-border {
+	border:2px solid rgba(255, 255, 255, 0.1);
+}
+
 .full-vh {
     height: 100vh;
 }
@@ -45,6 +49,10 @@ h3 {
 
 .two-thirds-height {
     height: 66.6%;
+}
+
+.fs-22 {
+	font-size: 22px;
 }
 
 .svg-bg {
@@ -120,4 +128,27 @@ h3 {
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+body::-webkit-scrollbar {    
+	width: 10px;
+}
+
+/* background of the scrollbar except button or resizer */
+
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+	background-color: #6f6f70;
+    border-radius: 16px;
+	border: 2px solid #bdbdbd;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+    display:none;
 }

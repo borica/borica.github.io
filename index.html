@@ -20,9 +20,9 @@
     <body class="dark-gradient-container full-vh d-flex flex-column">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 mt-4">
+                <div class="col-md-12 mt-2">
                     <div class="col-md-2 offset-md-11 language">
-                        <image src="images/usa.svg" style="height: 50px;" />
+                        <image src="images/usa.svg" style="height: 50px;" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Coming soon" />
                         <image src="images/brazil.svg" style="height: 50px;" />
                     </div>
                 </div>
@@ -91,36 +91,94 @@
                             <h2>Experiência Profissional</h2>
                             <hr/>
                             <div class="card text-white bg-dark mb-3">
-                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><div class="header-bg"></div><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>everis Brasil - Curitiba</div>
-                                
+                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir">
+                                    <ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Everis Brasil (atualmente)
+                                </div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="https://www.everis.com/" alt="link to everis">
-                                                <img src="images/everis-logo.png" style="height: 75px;" />
-                                            </a>
+                                        <div class="col-md-3 ">
+                                            <div class="card text-white bg-dark dark-card-border mb-3">                                                
+                                                <div class="card-body">
+                                                    <a href="https://www.everis.com/" alt="link to everis">
+                                                        <img src="images/everis-logo.png" style="width: 100%;" />
+                                                    </a>                                                    
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item bg-dark dark-card-border d-flex align-items-center">
+                                                        <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
+                                                        <span class="ms-2">2 anos +</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item bg-dark dark-card-border d-flex align-items-center">
+                                                        <ion-icon name="call-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2">Telecom</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item bg-dark dark-card-border d-flex align-items-center">
+                                                        <ion-icon name="alert-circle-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2">Sustentação</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="col-md-9 offset-md-1">
-                                            <h5 class="card-title">Programador Java Jr.</h5>
+                                        <div class="col-md-9">
+                                            <h5 class="card-title">Junior Web Developer</h5>
                                             <p class="card-text">
-                                                
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolore debitis iste soluta quaerat mollitia officiis tempora nostrum laboriosam, necessitatibus deserunt modi atque eius delectus ipsum voluptatibus neque. Sunt, a!
                                             </p>
+                                            <ul>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="card text-white bg-dark mb-3">
-                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><div class="header-bg"></div><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Sigma dataserv - Curitiba</div>
+                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><div class="header-bg"></div><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Sigma dataserv</div>
                                 <div class="card-body start-hidden">
                                     <div class="row">
-                                        <div class="col-md-2">
-                                            <a href="http://www.sigma.com.br" alt="link to sigma.com.br"><img src="images/sigma.png" style="height: 75px;" /></a>
+                                        <div class="col-md-3">
+                                            
+                                            <div class="card text-white bg-dark dark-card-border mb-3">                                                
+                                                <div class="card-body">
+                                                    <a href="http://www.sigma.com.br" alt="link to sigma.com.br">
+                                                        <img src="images/sigma.png" style="width: 100%;" />
+                                                    </a>
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item bg-dark dark-card-border d-flex align-items-center">
+                                                        <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
+                                                        <span class="ms-2">1 ano +</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item bg-dark dark-card-border d-flex align-items-center">
+                                                        <ion-icon name="business-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2">Governo</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item bg-dark dark-card-border d-flex align-items-center">
+                                                        <ion-icon name="file-tray-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2">Projetos</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="col-md-9 offset-md-1">
-                                            <h5 class="card-title">Programador Java Jr.</h5>
+                                        <div class="col-md-9">
+                                            <h5 class="card-title">Junior Web Developer</h5>
                                             <p class="card-text">
-                                                
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In aut, non corporis suscipit, accusantium corrupti laboriosam exercitationem fuga eos repellendus perferendis iure repellat voluptatibus necessitatibus eligendi aliquid placeat aperiam quia!
                                             </p>
+                                            <ul>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                                <li>Skill</li>
+                                            </ul>
                                         </div>
                                     </div>                                    
                                 </div>
