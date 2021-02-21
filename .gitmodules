@@ -1,0 +1,3 @@
+[submodule "showcase/sonic"]
+	path = showcase/sonic
+	url = https://github.com/borica/sonic.git
