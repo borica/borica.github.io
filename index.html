@@ -17,20 +17,22 @@
         <link rel="stylesheet" href="style.css">
         <title>Tiago Boriça - Webdev</title>
     </head>
-    <body class="dark-gradient-container full-vh d-flex flex-column">
+    <body class="dark-gradient-container full-vh">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 mt-2">
+            <div class="row">                
+                <div class="col-12 mt-2">
                     <div class="col-md-2 offset-md-11 language">
                         <image src="images/usa.svg" style="height: 50px;" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Coming soon" />
                         <image src="images/brazil.svg" style="height: 50px;" />
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card mt-2">
+
+                <div class="col-xs-12 col-sm-12 col-md-3">
+                    <!-- BREAKPOINT MD -->
+                    <div class="card mt-2 fixed profile-card bg-white d-none d-md-block">
                         <div class="card-body">
                             <div class="col-md-8 offset-md-2">
-                                <div class="gradient-container full-radius p-1">
+                                <div class="gradient-container full-radius p-1 ms-2">
                                     <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
                                 </div>
                             </div>
@@ -77,6 +79,59 @@
                                 </table>
                             </div>      
                         </div>
+
+                        <!-- BREAKPOINT TO SMALL -->
+                        <div class="card col-xs-12 mt-2 profile-card bg-white d-none d-sm-block d-md-none">
+                            <div class="card-body">
+                                <div class="col-md-8 offset-md-2">
+                                    <div class="gradient-container full-radius p-1 ms-2">
+                                        <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-8 offset-xs-2 d-md-none">
+                                    <div class="full-radius p-1">
+                                        <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-10 offset-md-1 mt-3">
+                                    <h1 class="text-center" style="font-size: 36px; margin-bottom: 0;">Tiago Boriça</h1>
+                                    <h2 class="text-center" style="font-size: 20px;">Desenvolvedor</h2>
+                                    <h3 class="text-center" style="font-size: 16px;">Curitiba Brasil</h3>
+                                    <hr/>
+                                    <table class="w-100">                                    
+                                        <tr>
+                                            <td class="align-middle" style="width: 40px;"><ion-icon style="color: red;" name="heart" size='large'></ion-icon></td>
+                                            <td class="align-middle">
+                                                <div class="progress pointer">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" original-pos="35%" before-text="Level 23" after-text="23 anos"> Level 23</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle" style="width: 40px;"><ion-icon name="time-outline" size="large"></ion-icon></ion-icon></td>
+                                            <td class="align-middle">
+                                                <div class="progress pointer">
+                                                    <div class="progress-bar" role="progressbar" style="width: 50%;" original-pos="50%" before-text="Level 3" after-text="3 anos de experiência">Level 3</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle" style="width: 40px;"><ion-icon name="cafe-outline" size="large"></ion-icon></ion-icon></ion-icon></td>
+                                            <td class="align-middle">
+                                                <div class="progress pointer">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #6f4e37;" original-pos="80%" before-text="Level 18.250" after-text="18.250 xícaras de café">Level 18.250</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><center><small style="color: #a5a5a5;">Passe o mouse para relevar</small></center></td>
+                                        </tr>
+                                    </table>
+                                </div>      
+                            </div>
+                        </div>
                         <div class="card-footer">
                             <div class="col-md-10 offset-md-1 text-center">
                                 <a href="https://www.linkedin.com/in/tiago-boriça-57035b161/" target="_blank" alt="linkedin"><ion-icon size="large" class="text-secondary" name="logo-linkedin"></ion-icon></a>
@@ -86,25 +141,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9">
-                    <div class="card shadow-lg mt-2">
+                <div class="col-xs-12 col-sm-12 col-md-9">
+                    <div class="card shadow-lg mt-2 bg-white">
                         <div class="card-body">                                
                             <h2>Olá! Prazer em conhecê-lo...</h2>
                             <p style="font-family: 'Assistant', sans-serif; font-size: 19px;">
-                                Meu nome é Tiago, tenho 23 anos, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, molestias a vitae laudantium pariatur quis doloremque maxime, quasi inventore nulla, nam doloribus nesciunt cum iure minima ut deserunt aut. Soluta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis adipisci iusto laboriosam atque, ullam fugiat voluptatem quis quaerat dolores nihil quos culpa quisquam libero in odio harum laudantium.
+                                Meu nome é Tiago, tenho 23 anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento.
                             </p>
                             <hr/>
                             <h2>Experiência Profissional</h2>
                             <div class="card text-light mb-3 svg-card">
                                 <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir">
-                                    <ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Everis Brasil (atualmente)
+                                    <ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Everis Brasil  <span class="badge bg-success text-light ms-3"> Atualmente</span>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-md-3">
                                             <div class="card text-light bg-transparent no-border mb-3">                                                
                                                 <div class="card-body">
-                                                    <a href="https://www.everis.com/" alt="link to everis">
+                                                    <a href="https://www.everis.com/" alt="link to everis" target="_blank">
                                                         <img src="images/everis-logo.png" style="width: 100%;" />
                                                     </a>                                                    
                                                 </div>
@@ -127,7 +182,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-9">
-                                            <h5 class="card-title">Junior Web Developer</h5>
+                                            <h5 class="card-title">Junior Java Web Developer</h5>
                                             
                                             <p class="card-text">
                                                 Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de "big picture" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico.
@@ -157,7 +212,7 @@
                                         <div class="col-md-3">
                                             <div class="card text-white bg-transparent no-border mb-3">                                                
                                                 <div class="card-body">
-                                                    <a href="http://www.sigma.com.br" alt="link to sigma.com.br">
+                                                    <a href="http://www.sigma.com.br" alt="link to sigma.com.br" target="_blank">
                                                         <img src="images/sigma.png" style="width: 100%;" />
                                                     </a>
                                                 </div>
@@ -180,7 +235,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-9">
-                                            <h5 class="card-title">Junior Web Developer</h5>
+                                            <h5 class="card-title">Junior Java Web Developer</h5>
                                             <p class="card-text">
                                                 Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente.
                                             </p>
@@ -202,7 +257,43 @@
                                         </div>
                                     </div>                                    
                                 </div>
-                            </div>                       
+                            </div>  
+                            <hr/>
+                            <h2>Histórico acadêmico</h2>
+                            <div class="row align-items-center svg-new mx-1 rounded">
+                               
+                                <div class="col-md-3 card offset-md-2 mt-5 mb-5">
+                                    <div class="card-header text-center">
+                                        Colégio SPEI
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="images/spei.png" class="mx-auto d-block" alt="" height="100px">
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon>Técnico em Informática</li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="hourglass-outline" class="fs-22 me-2"></ion-icon>2012 - 2015</li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="checkmark-circle-outline" class="fs-22 me-2 text-success"></ion-icon>Concluído</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-2 text-center text-light">
+                                    <ion-icon name="arrow-forward-outline" size="large"></ion-icon>
+                                </div>
+
+                                <div class="col-md-3 card">
+                                    <div class="card-header text-center">
+                                        Faculdades OPET
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="images/opet-logo.png" class="mx-auto d-block" alt="" height="100px">
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon><span class="pointer" id="readHelper" data-bs-toggle="tooltip" data-bs-placement="right" title="Análise e Desenvolvimento de Sistemas">TADS</span></li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="hourglass-outline" class="fs-22 me-2"></ion-icon>2019 - 2021</li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="alert-circle-outline" class="fs-22 me-2 text-primary"></ion-icon>Cursando</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -212,7 +303,7 @@
         <footer class="footer mt-auto py-3 bg-transparent">
             <div class="container">
                 <center>
-                    <span class="text-muted">Made with love 💜, Bootstrap and JS. Icons from <a href="https://ionicons.com" class="link-secondary">Ionicons</a> ---- Flag icons by <a href="http://www.freepik.com" class="link-secondary" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" class="link-secondary" title="Flaticon">www.flaticon.com</a></span>
+                    <span class="text-muted">Made with love 💜, Bootstrap and JS. Icons from <a href="https://ionicons.com" class="link-secondary">Ionicons</a> -- Flag icons by <a href="http://www.freepik.com" class="link-secondary" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" class="link-secondary" title="Flaticon">www.flaticon.com</a> -- Awesome Custom SVGs at <a href="https://www.svgbackgrounds.com/" class="link-secondary" target="_blank">SVGBackgrounds.com.</a></span>
                 </center>
             </div>
           </footer>
