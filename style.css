@@ -1,3 +1,41 @@
+/* HTML selectors */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* SECTION STYLING SCROLLBAR */
+
+body::-webkit-scrollbar {    
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #6f6f70;
+    border-radius: 16px;
+	border: 2px solid #bdbdbd;
+}
+
+body::-webkit-scrollbar-button {
+    display:none;
+}
+/* END SECTION STYLING SCROLLBAR */
+
+.p-assistant {
+	font-family: 'Assistant', sans-serif; font-size: 19px;
+}
+
+
 .card-header {
 	cursor: pointer;
 }
@@ -23,20 +61,6 @@
     padding-right:0;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
 
 .profile-card {
 	width: 310px;
@@ -153,28 +177,17 @@ h3 {
 	}
 }
 
-/* total width */
-body::-webkit-scrollbar {    
-	width: 10px;
-}
-
-/* scrollbar itself */
-body::-webkit-scrollbar-thumb {
-	background-color: #6f6f70;
-    border-radius: 16px;
-	border: 2px solid #bdbdbd;
-}
-
-/* set button(top and bottom of the scrollbar) */
-body::-webkit-scrollbar-button {
-    display:none;
-}
-
 .svg-new {
 	background-color: #1b1b1b;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 90 90'%3E%3Ccircle fill='%23242424' cx='45' cy='45' r='6'/%3E%3Cg fill='%23171717' fill-opacity='1'%3E%3Ccircle cx='0' cy='90' r='6'/%3E%3Ccircle cx='90' cy='90' r='6'/%3E%3Ccircle cx='90' cy='0' r='6'/%3E%3Ccircle cx='0' cy='0' r='6'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.green-hill-zone-bg {
+	background-image: url('images/green-hill-zone.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+}
 
 .profile-icon-black{
 	transition: 0.3s;
