@@ -29,28 +29,118 @@
         "ptb" : {
             "title" : "Experiência Profissional",
             "everisCard" :  {
+                "title" : "Everis Brasil",
+                "badge" : "Atualmente",
                 "leftPanelInfo" : {
                     "time"      : "2 anos +",
                     "area"      : "Telecom",
                     "field"     : "Sustentação"
                 },
                 "rightPaneInfo" : {
-                    // TODO
+                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de "big picture" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
                 }
             },
             "sigmaCard" : {
+                "title" : "Sigma dataserv",
+                "badge" : "Atualmente",
                 "leftPanelInfo" : {
-                    "time"      : "2 anos +",
-                    "area"      : "Telecom",
-                    "field"     : "Sustentação"
+                    "time"      : "1 ano +",
+                    "area"      : "Governo",
+                    "field"     : "Projetos"
                 },
                 "rightPaneInfo" : {
-                    // TODO
+                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceText"  : "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
                 }
             }
         },
         "eng" : {
-            // TODO
+            "title" : "Professional Experience",
+            "everisCard" :  {
+                "title" : "Everis Brazil",
+                "badge" : "Currently",
+                "leftPanelInfo" : {
+                    "time"      : "2 years +",
+                    "area"      : "Telecom",
+                    "field"     : "Sustainability"
+                },
+                "rightPaneInfo" : {
+                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de "big picture" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
+                }
+            },
+            "sigmaCard" : {
+                "title" : "Sigma dataserv",
+                "badge" : "Atualmente",
+                "leftPanelInfo" : {
+                    "time"      : "1 year +",
+                    "area"      : "Government",
+                    "field"     : "Projects"
+                },
+                "rightPaneInfo" : {
+                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceText"  : "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
+                }
+            }
+        }
+    },
+    "academicHistory" : {
+        "ptb" : { 
+            "speiCard" : {
+                "cardTitle"   : "Colégio SPEI",
+                "course"      : "TI",
+                "hoverCourse" : "Técnico em Informática",
+                "attendance"  : "2012 - 2015",
+                "status"      : "Concluído"
+            },
+            "opetCard" : {
+                "cardTitle"   : "Faculdades OPET",
+                "course"      : "TADS",
+                "hoverCourse" : "Análise e Desenvolvimento de Sistemas",
+                "attendance"  : "2019 - 2021",
+                "status"      : "Cursando"
+            }
+        },
+        "eng" : {
+            "speiCard" : {
+                "cardTitle"   : "SPEI School",
+                "course"      : "TI",
+                "hoverCourse" : "Information Technician",
+                "attendance"  : "2012 - 2015",
+                "status"      : "Complete"
+            },
+            "opetCard" : {
+                "cardTitle"   : "OPET College",
+                "course"      : "TADS",
+                "hoverCourse" : "Análise e Desenvolvimento de Sistemas",
+                "attendance"  : "2019 - 2021",
+                "status"      : "On Course"
+            }
+        }
+    },
+    "showcase" : {
+        "ptb" : {
+            "leftPanelInfo" : {
+                "date"      : "2018",
+                "type"      : "Jogo",
+                "category"  : "Pessoal"
+            },
+            "rightPanelInfo" : {
+                "title" : "Sonic Phaser Game",
+                "text"  : "O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem."
+            }
+        },
+        "eng" : {
+            "leftPanelInfo" : {
+                "date"      : "2018",
+                "type"      : "Game",
+                "category"  : "Personal"
+            },
+            "rightPanelInfo" : {
+                "title" : "Sonic Phaser Game",
+                "text"  : "O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem."
+            }
         }
     }
 }
