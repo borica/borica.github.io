@@ -1,0 +1,56 @@
+{   
+    "profileCard": {
+        "ptb" : {
+            "age"             : "{replace_age} anos",
+            "yearsExperience" : "anos de experiencia",
+            "coffee"          : "xícaras de café",
+            "hint"            : "Passe o mouse para revelar",
+            "location"        : "Curitiba, Brasil"
+        },
+        "eng" : {
+            "age"             : "{replace_age} years old",
+            "yearsExperience" : "years of experience",
+            "coffee"          : "Cups of coffee",
+            "hint"            : "Hover your mouse to reveal",
+            "location"        : "Curitiba, Brazil"
+        }
+    },
+    "headerGreeting" : {
+        "ptb" : {
+            "title":"Olá! Prazer em conhecê-lo...",
+            "text" : "Meu nome é Tiago, tenho {replace_age} anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento."
+        },
+        "eng" : {
+            "title":"Hey! Nice to see you...",
+            "text" : "My name is Tiago, i'm {replace_age} years old. I work and study system's delevopment. I've been messing around with the internet since i was a toddler, so it was very natural for me to know what type o career i wanted to invest on. When i was eleven years old, i had a blog, in which i would venture editting the HTML and CSS. I miss blogger. Time went on and i've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
+        }
+    },
+    "experiences" : {
+        "ptb" : {
+            "title" : "Experiência Profissional",
+            "everisCard" :  {
+                "leftPanelInfo" : {
+                    "time"      : "2 anos +",
+                    "area"      : "Telecom",
+                    "field"     : "Sustentação"
+                },
+                "rightPaneInfo" : {
+                    // TODO
+                }
+            },
+            "sigmaCard" : {
+                "leftPanelInfo" : {
+                    "time"      : "2 anos +",
+                    "area"      : "Telecom",
+                    "field"     : "Sustentação"
+                },
+                "rightPaneInfo" : {
+                    // TODO
+                }
+            }
+        },
+        "eng" : {
+            // TODO
+        }
+    }
+}
