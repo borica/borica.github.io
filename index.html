@@ -1,36 +1,36 @@
 <!doctype html>
 <html>
-<!--
-    _                                            _
-    T T                                          T T
-    | |                                          | |
-    | |                                          | |
-    | |                                          | |        PEW
-    | |                                          | |           PEW
-    | |                                          | |                Stop there you rebel scum !
-    | |                                          | |                You're allowed to use this website and style as inspiration.
-    | |                   ____                   | |                If you're nice enough give me some credit somewhere at your page.
-    | |            ___.r-"`--'"-r.____           | |                If you're even nicer find a way to send me your page, i'd love to see it and star it in github.
-    | |.-._,.,---~"_/_/  .----.  \_\_"~---,.,_,-.| |
-    | ]|.[_]_ T~T[_.-Y  / \  / \  Y-._]T~T _[_].|| |                Also, come to the dark side, we have cookies, but no yours, relax.
-   [|-+[  ___]| [__  |-=[--()--]=-|  __] |[___  ]+-|]               https://github.com/borica
-    | ]|"[_]  l_j[_"-l  \ /  \ /  !-"_]l_j  [_]~|| |
-    | |`-' "~"---.,_\"\  "o--o"  /"/_,.---"~" `-'| |
-    | |             ~~"^-.____.-^"~~             | |
-    | |                                          | |
-    | |                                          | |
-    | |                                          | |
-    | |                                          | |
-    | |                                          | |
-    | |                                          | |  
-    | |                                          | |
-    l_i                                          l_j -Row
- 
- ---------------------------------------------------------
- This ASCII pic can be found at
- https://asciiart.website/index.php?art=movies/star%20wars 
+    <!--
+        _                                            _
+        T T                                          T T
+        | |                                          | |
+        | |                                          | |
+        | |                                          | |        PEW
+        | |                                          | |           PEW
+        | |                                          | |                Stop there you rebel scum !
+        | |                                          | |                You're allowed to use this website and style as inspiration.
+        | |                   ____                   | |                If you're nice enough give me some credit somewhere at your page.
+        | |            ___.r-"`--'"-r.____           | |                If you're even nicer find a way to send me your page, i'd love to see it and star it in github.
+        | |.-._,.,---~"_/_/  .----.  \_\_"~---,.,_,-.| |
+        | ]|.[_]_ T~T[_.-Y  / \  / \  Y-._]T~T _[_].|| |                Also, come to the dark side, we have cookies, but no yours, relax.
+    [|-+[  ___]| [__  |-=[--()--]=-|  __] |[___  ]+-|]               https://github.com/borica
+        | ]|"[_]  l_j[_"-l  \ /  \ /  !-"_]l_j  [_]~|| |
+        | |`-' "~"---.,_\"\  "o--o"  /"/_,.---"~" `-'| |
+        | |             ~~"^-.____.-^"~~             | |
+        | |                                          | |
+        | |                                          | |
+        | |                                          | |
+        | |                                          | |
+        | |                                          | |
+        | |                                          | |  
+        | |                                          | |
+        l_i                                          l_j -Row
+    
+    ---------------------------------------------------------
+    This ASCII pic can be found at
+    https://asciiart.website/index.php?art=movies/star%20wars 
 
- -->
+    -->
     
     <head>
         <meta charset="utf-8">
@@ -54,8 +54,8 @@
             <div class="row">                
                 <div class="col-12 mt-2">
                     <div class="col-md-2 offset-md-11 language">
-                        <image src="images/usa.svg" style="height: 50px;" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Coming soon" />
-                        <image src="images/brazil.svg" style="height: 50px;" />
+                        <image src="images/usa.svg" style="height: 50px;" class="pointer" id="expandTooltip" onclick="translationStart('eng')" data-bs-toggle="tooltip" data-bs-placement="top" title="Translate to english"/>
+                        <image src="images/brazil.svg" style="height: 50px;" class="pointer" id="expandTooltip" onclick="translationStart('ptb')" data-bs-toggle="tooltip" data-bs-placement="top" title="Traduzir para português"/>
                     </div>
                 </div>
 
@@ -77,15 +77,15 @@
 
                             <div class="col-md-10 offset-md-1 mt-3">
                                 <h1 class="text-center" style="font-size: 36px; margin-bottom: 0;">Tiago Boriça</h1>
-                                <h2 class="text-center" style="font-size: 20px;">Desenvolvedor</h2>
-                                <h3 class="text-center" style="font-size: 16px;">Curitiba Brasil</h3>
+                                <h2 class="text-center profileCard-position" translate="yes" style="font-size: 20px;">Desenvolvedor</h2>
+                                <h3 class="text-center profileCard-location" translate="yes" style="font-size: 16px;">Curitiba Brasil</h3>
                                 <hr/>
                                 <table class="w-100">                                    
                                     <tr>
                                         <td class="align-middle" style="width: 40px;"><ion-icon style="color: red;" name="heart" size='large'></ion-icon></td>
                                         <td class="align-middle">
                                             <div class="progress pointer">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" original-pos="35%" before-text="Level 23" after-text="23 anos"> Level 23</div>
+                                                <div class="progress-bar bg-success " translate="yes" role="progressbar" style="width: 35%;" original-pos="35%" before-text="Level 23" after-text="23 anos"> Level 23</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -93,7 +93,7 @@
                                         <td class="align-middle" style="width: 40px;"><ion-icon name="time-outline" size="large"></ion-icon></ion-icon></td>
                                         <td class="align-middle">
                                             <div class="progress pointer">
-                                                <div class="progress-bar" role="progressbar" style="width: 50%;" original-pos="50%" before-text="Level 3" after-text="3 anos de experiência">Level 3</div>
+                                                <div class="progress-bar" translate="yes" role="progressbar" style="width: 50%;" original-pos="50%" before-text="Level 3" after-text="3 anos de experiência">Level 3</div>
                                             </div>
                                         </td>
                                     </tr>
@@ -101,12 +101,12 @@
                                         <td class="align-middle" style="width: 40px;"><ion-icon name="cafe-outline" size="large"></ion-icon></ion-icon></ion-icon></td>
                                         <td class="align-middle">
                                             <div class="progress pointer">
-                                                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #6f4e37;" original-pos="80%" before-text="Level 18.250" after-text="18.250 xícaras de café">Level 18.250</div>
+                                                <div class="progress-bar" translate="yes" role="progressbar" style="width: 80%; background-color: #6f4e37;" original-pos="80%" before-text="Level 18.250" after-text="18.250 xícaras de café">Level 18.250</div>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2"><center><small style="color: #a5a5a5;">Passe o mouse para relevar</small></center></td>
+                                        <td colspan="2"><center><small style="color: #a5a5a5;" class="profileCard-hint" translate="yes">Passe o mouse para relevar</small></center></td>
                                     </tr>
                                 </table>
                             </div>      
@@ -176,15 +176,15 @@
                 <div class="col-xs-12 col-sm-12 col-md-9">
                     <div class="card shadow-lg mt-2 bg-white">
                         <div class="card-body">                                
-                            <h2>Olá! Prazer em conhecê-lo...</h2>
-                            <p class="p-assistant">
+                            <h2 class="whatever headerGreeting-title" translate="yes">Olá! Prazer em conhecê-lo...</h2>
+                            <p class="p-assistant headerGreeting-text" translate="yes">
                                 Meu nome é Tiago, tenho 23 anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento.
                             </p>
                             <hr/>
-                            <h2>Experiência Profissional</h2>
+                            <h2 class="experiences-title" translate="yes">Experiência Profissional</h2>
                             <div class="card text-light mb-3 svg-card">
                                 <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir">
-                                    <ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Everis Brasil  <span class="badge bg-success text-light ms-3"> Atualmente</span>
+                                    <ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon><span class="experiences-everisCard-title" translate="yes">Everis Brasil<span><span class="badge bg-success text-light ms-3 experiences-everisCard-badge" translate="yes">Atualmente</span>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
@@ -198,25 +198,25 @@
                                                 <ul class="list-group list-group-flush">
                                                     <li class="list-group-item bg-transparent no-border d-flex align-items-center">
                                                         <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
-                                                        <span class="ms-2">2 anos +</span>
+                                                        <span class="ms-2 experiences-everisCard-leftPanelInfo-time" translate="yes">2 anos +</span>
                                                     </li>
                                                     
                                                     <li class="list-group-item bg-transparent no-border d-flex align-items-center">
                                                         <ion-icon name="call-outline" class="fs-22"></ion-icon>
-                                                        <span class="ms-2">Telecom</span>
+                                                        <span class="ms-2 experiences-everisCard-leftPanelInfo-area" translate="yes">Telecom</span>
                                                     </li>
                                                     
                                                     <li class="list-group-item bg-transparent no-border d-flex align-items-center">
                                                         <ion-icon name="alert-circle-outline" class="fs-22"></ion-icon>
-                                                        <span class="ms-2">Sustentação</span>
+                                                        <span class="ms-2 experiences-everisCard-leftPanelInfo-field" translate="yes">Sustentação</span>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="col-md-9">
-                                            <h5 class="card-title">Junior Java Web Developer</h5>
+                                            <h5 class="card-title experiences-everisCard-rightPaneInfo-experienceTitle" translate="yes">Junior Java Web Developer</h5>
                                             
-                                            <p class="card-text">
+                                            <p class="card-text experiences-everisCard-rightPaneInfo-experienceText" translate="yes">
                                                 Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de "big picture" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico.
                                             </p>
 
@@ -238,7 +238,10 @@
                                 </div>
                             </div>
                             <div class="card text-white svg-card">
-                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Sigma dataserv</div>
+                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir">
+                                    <ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>
+                                    <span class="experiences-sigmaCard-title" translate="yes">Sigma dataserv</span>
+                                </div>
                                 <div class="card-body start-hidden">
                                     <div class="row">
                                         <div class="col-md-3">
@@ -251,24 +254,24 @@
                                                 <ul class="list-group list-group-flush">
                                                     <li class="list-group-item bg-transparent no-border dark-card-border d-flex align-items-center">
                                                         <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
-                                                        <span class="ms-2">1 ano +</span>
+                                                        <span class="ms-2 experiences-sigmaCard-leftPanelInfo-time" translate="yes">1 ano +</span>
                                                     </li>
                                                     
                                                     <li class="list-group-item bg-transparent no-border d-flex align-items-center">
                                                         <ion-icon name="business-outline" class="fs-22"></ion-icon>
-                                                        <span class="ms-2">Governo</span>
+                                                        <span class="ms-2 experiences-sigmaCard-leftPanelInfo-area" translate="yes">Governo</span>
                                                     </li>
                                                     
                                                     <li class="list-group-item bg-transparent no-border d-flex align-items-center">
                                                         <ion-icon name="file-tray-outline" class="fs-22"></ion-icon>
-                                                        <span class="ms-2">Projetos</span>
+                                                        <span class="ms-2 experiences-sigmaCard-leftPanelInfo-field" translate="yes">Projetos</span>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="col-md-9">
-                                            <h5 class="card-title">Junior Java Web Developer</h5>
-                                            <p class="card-text">
+                                            <h5 class="card-title experiences-sigmaCard-rightPaneInfo-experienceTitle" translate="yes">Junior Java Web Developer</h5>
+                                            <p class="card-text experiences-sigmaCard-rightPaneInfo-experienceText" translate="yes">
                                                 Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente.
                                             </p>
                                             <h5>Key Skills:</h5>
@@ -291,20 +294,20 @@
                                 </div>
                             </div>  
                             <hr/>
-                            <h2>Histórico acadêmico</h2>
+                            <h2 class="academicHistory-title" translate="yes">Histórico acadêmico</h2>
                             <div class="row align-items-center svg-new mx-1 rounded">
                                
                                 <div class="col-md-3 card offset-md-2 mt-5 mb-5">
-                                    <div class="card-header text-center">
+                                    <div class="card-header text-center academicHistory-speiCard-cardTitle" translate="yes">
                                         Colégio SPEI
                                     </div>
                                     <div class="card-body">
                                         <img src="images/spei.png" class="mx-auto d-block" alt="" height="100px">
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon>Técnico em Informática</li>
-                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="hourglass-outline" class="fs-22 me-2"></ion-icon>2012 - 2015</li>
-                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="checkmark-circle-outline" class="fs-22 me-2 text-success"></ion-icon>Concluído</li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon><span class="academicHistory-speiCard-course" translate="yes">Técnico em Informática</span></li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="hourglass-outline" class="fs-22 me-2"></ion-icon><span class="academicHistory-speiCard-attendance" translate="yes">2012 - 2015</span></li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="checkmark-circle-outline" class="fs-22 me-2 text-success"></ion-icon><span class="academicHistory-speiCard-status" translate="yes">Concluído</span></li>
                                     </ul>
                                 </div>
 
@@ -313,22 +316,22 @@
                                 </div>
 
                                 <div class="col-md-3 card">
-                                    <div class="card-header text-center">
+                                    <div class="card-header text-center academicHistory-opetCard-cardTitle">
                                         Faculdades OPET
                                     </div>
                                     <div class="card-body">
                                         <img src="images/opet-logo.png" class="mx-auto d-block" alt="" height="100px">
                                     </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon><span class="pointer" id="readHelper" data-bs-toggle="tooltip" data-bs-placement="right" title="Análise e Desenvolvimento de Sistemas">TADS</span></li>
-                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="hourglass-outline" class="fs-22 me-2"></ion-icon>2019 - 2021</li>
-                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="alert-circle-outline" class="fs-22 me-2 text-primary"></ion-icon>Cursando</li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon><span class="pointer academicHistory-opetCard-course" id="readHelper" data-bs-toggle="tooltip" data-bs-placement="right" title="Análise e Desenvolvimento de Sistemas" translate="yes">TADS</span></li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="hourglass-outline" class="fs-22 me-2"></ion-icon><span class="academicHistory-opetCard-attendance" translate="yes">2019 - 2021</span></li>
+                                        <li class="list-group-item d-flex align-items-center"><ion-icon name="alert-circle-outline" class="fs-22 me-2 text-primary"></ion-icon><span class="academicHistory-opetCard-status" translate="yes">Cursando</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <hr/>
-                            <h2>Showcase</h2>
-                            <p class="p-assistant">Com o passar dos anos, fui acumulando alguns projetos pessoais e acadêmicos os quais foram divertidos de serem desenvolvidos. Nesta seção gostaria de mostrar alguns desses pequenos projetos.</p>
+                            <h2 class="showcase-leftPanelInfo-title" translate="yes">Projetos</h2>
+                            <p class="p-assistant showcase-leftPanelInfo-description" translate="yes">Com o passar dos anos, fui acumulando alguns projetos pessoais e acadêmicos os quais foram divertidos de serem desenvolvidos. Nesta seção gostaria de mostrar alguns desses pequenos projetos.</p>
                             
                             <div class="card text-white green-hill-zone-bg">
                                 <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Sonic</div>
@@ -342,24 +345,24 @@
                                                 <ul class="list-group list-group-flush">
                                                     <li class="list-group-item d-flex align-items-center">
                                                         <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
-                                                        <span class="ms-2">2018</span>
+                                                        <span class="ms-2 showcase-leftPanelInfo-date" translate="yes">2018</span>
                                                     </li>
                                                     
                                                     <li class="list-group-item d-flex align-items-center">
                                                         <ion-icon name="game-controller-outline" class="fs-22"></ion-icon>
-                                                        <span class="ms-2">Jogo</span>
+                                                        <span class="ms-2 showcase-leftPanelInfo-type" translate="yes">Jogo</span>
                                                     </li>
                                                     
                                                     <li class="list-group-item d-flex align-items-center">
                                                         <ion-icon name="person-outline" class="fs-22"></ion-icon>
-                                                        <span class="ms-2">Pessoal</span>
+                                                        <span class="ms-2 showcase-leftPanelInfo-category" translate="yes">Pessoal</span>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="col-md-9">
-                                            <h5 class="card-title">Sonic Phaser Game</h5>
-                                            <p class="card-text">
+                                            <h5 class="card-title showcase-rightPanelInfo-title" translate="yes">Sonic Phaser Game</h5>
+                                            <p class="card-text showcase-rightPanelInfo-text" translate="yes">
                                                 O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem.
                                             </p>
                                             <a href="showcase/sonic/game.html" target="_blank" class="btn btn-primary w-100 text-center"><ion-icon class="fs-22 mt-2" name="play-outline"></ion-icon></a>
@@ -384,6 +387,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="js/translation.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>

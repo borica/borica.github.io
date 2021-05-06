@@ -5,14 +5,16 @@
             "yearsExperience" : "anos de experiencia",
             "coffee"          : "xícaras de café",
             "hint"            : "Passe o mouse para revelar",
-            "location"        : "Curitiba, Brasil"
+            "location"        : "Curitiba, Brasil",
+            "position"        : "Desenvolvedor"
         },
         "eng" : {
             "age"             : "{replace_age} years old",
             "yearsExperience" : "years of experience",
             "coffee"          : "Cups of coffee",
             "hint"            : "Hover your mouse to reveal",
-            "location"        : "Curitiba, Brazil"
+            "location"        : "Curitiba, Brazil",
+            "position"        : "Developer"
         }
     },
     "headerGreeting" : {
@@ -38,7 +40,7 @@
                 },
                 "rightPaneInfo" : {
                     "experienceTitle" : "Junior Java Web Developer",
-                    "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de "big picture" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
+                    "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de \"big picture\" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
                 }
             },
             "sigmaCard" : {
@@ -66,27 +68,28 @@
                     "field"     : "Sustainability"
                 },
                 "rightPaneInfo" : {
-                    "experienceTitle" : "Junior Java Web Developer",
-                    "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de "big picture" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
+                    "experienceTitle" : "ENG_PLACEHOLDER",
+                    "experienceText"  : "ENG_PLACEHOLDER"
                 }
             },
             "sigmaCard" : {
                 "title" : "Sigma dataserv",
-                "badge" : "Atualmente",
+                "badge" : "Currently",
                 "leftPanelInfo" : {
                     "time"      : "1 year +",
                     "area"      : "Government",
                     "field"     : "Projects"
                 },
                 "rightPaneInfo" : {
-                    "experienceTitle" : "Junior Java Web Developer",
-                    "experienceText"  : "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
+                    "experienceTitle" : "ENG_PLACEHOLDER",
+                    "experienceText"  : "ENG_PLACEHOLDER"
                 }
             }
         }
     },
     "academicHistory" : {
         "ptb" : { 
+            "title" : "Histórico Acadêmico",
             "speiCard" : {
                 "cardTitle"   : "Colégio SPEI",
                 "course"      : "TI",
@@ -103,6 +106,7 @@
             }
         },
         "eng" : {
+            "title" : "Academic History",
             "speiCard" : {
                 "cardTitle"   : "SPEI School",
                 "course"      : "TI",
@@ -112,8 +116,8 @@
             },
             "opetCard" : {
                 "cardTitle"   : "OPET College",
-                "course"      : "TADS",
-                "hoverCourse" : "Análise e Desenvolvimento de Sistemas",
+                "course"      : "S.A.D",
+                "hoverCourse" : "System's Analisys and Development",
                 "attendance"  : "2019 - 2021",
                 "status"      : "On Course"
             }
@@ -121,6 +125,8 @@
     },
     "showcase" : {
         "ptb" : {
+            "title" : "Projetos",
+            "description" : "Com o passar dos anos, fui acumulando alguns projetos pessoais e acadêmicos os quais foram divertidos de serem desenvolvidos. Nesta seção gostaria de mostrar alguns desses pequenos projetos.",
             "leftPanelInfo" : {
                 "date"      : "2018",
                 "type"      : "Jogo",
@@ -132,6 +138,8 @@
             }
         },
         "eng" : {
+            "title" : "Showcase",
+            "description" : "ENG_PLACEHOLDER",
             "leftPanelInfo" : {
                 "date"      : "2018",
                 "type"      : "Game",
@@ -139,7 +147,7 @@
             },
             "rightPanelInfo" : {
                 "title" : "Sonic Phaser Game",
-                "text"  : "O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem."
+                "text"  : "ENG_PLACEHOLDER"
             }
         }
     }

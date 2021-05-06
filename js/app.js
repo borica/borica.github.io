@@ -1,6 +1,6 @@
 $(() => {
+    translationStart();
     $('.start-hidden').hide();
-
     $('.card-header').click((eventHandle)=>{
         let cardBody = "";
         let children = eventHandle.currentTarget.parentElement.children;
