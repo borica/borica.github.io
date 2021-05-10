@@ -19,12 +19,12 @@
     },
     "headerGreeting" : {
         "ptb" : {
-            "title":"Olá! Prazer em conhecê-lo...",
+            "title": "Olá! Prazer em conhecê-lo...",
             "text" : "Meu nome é Tiago, tenho {replace_age} anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento."
         },
         "eng" : {
-            "title":"Hey! Nice to see you...",
-            "text" : "My name is Tiago, i'm {replace_age} years old. I work and study system's delevopment. I've been messing around with the internet since i was a toddler, so it was very natural for me to know what type o career i wanted to invest on. When i was eleven years old, i had a blog, in which i would venture editting the HTML and CSS. I miss blogger. Time went on and i've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
+            "title": "Hey! Nice to see you...",
+            "text" : "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a toddler, so it was very natural for me to know what type o career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
         }
     },
     "experiences" : {
@@ -39,7 +39,7 @@
                     "field"     : "Sustentação"
                 },
                 "rightPaneInfo" : {
-                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceTitle" : "Web Developer, Java, Jr",
                     "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de \"big picture\" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
                 }
             },
@@ -52,7 +52,7 @@
                     "field"     : "Projetos"
                 },
                 "rightPaneInfo" : {
-                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceTitle" : "Web Developer, Java, Jr",
                     "experienceText"  : "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
                 }
             }
@@ -68,8 +68,8 @@
                     "field"     : "Sustainability"
                 },
                 "rightPaneInfo" : {
-                    "experienceTitle" : "ENG_PLACEHOLDER",
-                    "experienceText"  : "ENG_PLACEHOLDER"
+                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceText"  : "In collaboration with everis since 2018, I had the pleasure of being part of an excellent team in the sustainability area on one of the biggest telecom companies in the world. This project introduced me to various new challenges and learnings, a better comprehension of business big picture involving IT and reinforced the importancy of synchrony and team work. Role in CRM, supporting sales systems with fixes in functional and technical level."
                 }
             },
             "sigmaCard" : {
@@ -81,8 +81,8 @@
                     "field"     : "Projects"
                 },
                 "rightPaneInfo" : {
-                    "experienceTitle" : "ENG_PLACEHOLDER",
-                    "experienceText"  : "ENG_PLACEHOLDER"
+                    "experienceTitle" : "Junior Java Web Developer",
+                    "experienceText"  : "Collaborating with Sigma was my first experience as a developer, it elevated me to a new higher place in my career and for that I'm very much grateful. Being involved in their projects proven to be challenging but after every release would come the sensation of joy to see everything working as planned. Role in development of new functionalities for systems as a third-party, final client was Paraná's government (CELEPAR) and supporting during validation with client after release."
                 }
             }
         }
@@ -92,7 +92,7 @@
             "title" : "Histórico Acadêmico",
             "speiCard" : {
                 "cardTitle"   : "Colégio SPEI",
-                "course"      : "TI",
+                "course"      : "Tec. em Informática",
                 "hoverCourse" : "Técnico em Informática",
                 "attendance"  : "2012 - 2015",
                 "status"      : "Concluído"
@@ -109,15 +109,15 @@
             "title" : "Academic History",
             "speiCard" : {
                 "cardTitle"   : "SPEI School",
-                "course"      : "TI",
-                "hoverCourse" : "Information Technician",
+                "course"      : "Information Technician",
+                "hoverCourse" : "",
                 "attendance"  : "2012 - 2015",
                 "status"      : "Complete"
             },
             "opetCard" : {
                 "cardTitle"   : "OPET College",
-                "course"      : "S.A.D",
-                "hoverCourse" : "System's Analisys and Development",
+                "course"      : "System A.D",
+                "hoverCourse" : "System Analysis and Development",
                 "attendance"  : "2019 - 2021",
                 "status"      : "On Course"
             }
@@ -139,7 +139,7 @@
         },
         "eng" : {
             "title" : "Showcase",
-            "description" : "ENG_PLACEHOLDER",
+            "description" : "Over the years I've accumulated some personal and academic projects I had fun going through. In this section I'd like to show you some of those projects.",
             "leftPanelInfo" : {
                 "date"      : "2018",
                 "type"      : "Game",
@@ -147,7 +147,7 @@
             },
             "rightPanelInfo" : {
                 "title" : "Sonic Phaser Game",
-                "text"  : "ENG_PLACEHOLDER"
+                "text"  : "The nostalgic blue hedgehog were always present in my childhood. I have memories of spending hours and hours playing games of the Sonic franchise. On 2018, I attended to an internal workshop in my company focused in the JavaScript language, so I decided I should give it a try and relive him once again in my personal project. This project was really fun to begin, up until this day it remains in a very early stage, much of the time was used to develop the base concepts to walk, jump and animate the character."
             }
         }
     }
