@@ -52,30 +52,47 @@
     <body class="dark-gradient-container full-vh">
         <div class="container">
             <div class="row">                
-                <div class="col-12 mt-2">
-                    <div class="col-md-2 offset-md-11 language">
-                        <image src="images/usa.svg" style="height: 50px;" class="pointer" id="expandTooltip" onclick="translationStart('eng')" data-bs-toggle="tooltip" data-bs-placement="top" title="Translate to english"/>
-                        <image src="images/brazil.svg" style="height: 50px;" class="pointer" id="expandTooltip" onclick="translationStart('ptb')" data-bs-toggle="tooltip" data-bs-placement="top" title="Traduzir para português"/>
+                
+                <div class="col-xs-12 
+                            col-sm-12 
+                            col-md-10
+                            offset-md-1
+                            col-lg-10
+                            offset-lg-1 
+                            col-xl-12
+                            offset-xl-0 
+                            col-xxl-12
+                            offset-xxl-0
+                            mt-2">
+                    <div class="row justify-content-end">
+                        <div style="width: 130px;">
+                            <image src="images/usa.svg" style="height: 50px;" class="pointer" id="expandTooltip" onclick="translationStart('eng')" data-bs-toggle="tooltip" data-bs-placement="top" title="Translate to english"/>
+                            <image src="images/brazil.svg" style="height: 50px;" class="pointer" id="expandTooltip" onclick="translationStart('ptb')" data-bs-toggle="tooltip" data-bs-placement="top" title="Traduzir para português"/>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-3">
-                    <!-- BREAKPOINT MD -->
-                    <div class="card mt-2 fixed profile-card bg-white d-none d-md-block">
+                <div class="col-xs-12 
+                            col-sm-12 
+                            col-md-11
+                            offset-md-1
+                            col-lg-11
+                            offset-lg-1 
+                            col-xl-3
+                            offset-xl-0 
+                            col-xxl-3
+                            offset-xxl-0">
+                        <div class="card mt-2 fixed profile-card bg-white">
                         <div class="card-body">
-                            <div class="col-md-8 offset-md-2">
-                                <div class="gradient-container full-radius p-1 ms-2">
-                                    <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
+                            
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="gradient-container full-radius p-1 ms-2">
+                                        <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
+                                    </div>
                                 </div>
                             </div>
                             
-                            <div class="col-xs-8 offset-xs-2 d-md-none">
-                                <div class="full-radius p-1">
-                                    <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
-                                </div>
-                            </div>
-
-                            <div class="col-md-10 offset-md-1 mt-3">
+                            <div class="col-10 offset-1 mt-3">
                                 <h1 class="text-center" style="font-size: 36px; margin-bottom: 0;">Tiago Boriça</h1>
                                 <h2 class="text-center profileCard-position" translate="yes" style="font-size: 20px;">Desenvolvedor</h2>
                                 <h3 class="text-center profileCard-location" translate="yes" style="font-size: 16px;">Curitiba Brasil</h3>
@@ -111,59 +128,6 @@
                                 </table>
                             </div>      
                         </div>
-
-                        <!-- BREAKPOINT TO SMALL -->
-                        <div class="card col-xs-12 mt-2 profile-card bg-white d-none d-sm-block d-md-none">
-                            <div class="card-body">
-                                <div class="col-md-8 offset-md-2">
-                                    <div class="gradient-container full-radius p-1 ms-2">
-                                        <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-xs-8 offset-xs-2 d-md-none">
-                                    <div class="full-radius p-1">
-                                        <img class="img-fluid full-radius" src="images/0.jpg" alt=""/>
-                                    </div>
-                                </div>
-    
-                                <div class="col-md-10 offset-md-1 mt-3">
-                                    <h1 class="text-center" style="font-size: 36px;">Tiago Boriça</h1>
-                                    <h2 class="text-center" style="font-size: 20px;">Desenvolvedor</h2>
-                                    <h3 class="text-center" style="font-size: 16px;">Curitiba Brasil</h3>
-                                    <hr/>
-                                    <table class="w-100">                                    
-                                        <tr>
-                                            <td class="align-middle" style="width: 40px;"><ion-icon style="color: red;" name="heart" size='large'></ion-icon></td>
-                                            <td class="align-middle">
-                                                <div class="progress pointer">
-                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 35%;" original-pos="35%" before-text="Level 23" after-text="23 anos"> Level 23</div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle" style="width: 40px;"><ion-icon name="time-outline" size="large"></ion-icon></ion-icon></td>
-                                            <td class="align-middle">
-                                                <div class="progress pointer">
-                                                    <div class="progress-bar" role="progressbar" style="width: 50%;" original-pos="50%" before-text="Level 3" after-text="3 anos de experiência">Level 3</div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="align-middle" style="width: 40px;"><ion-icon name="cafe-outline" size="large"></ion-icon></ion-icon></ion-icon></td>
-                                            <td class="align-middle">
-                                                <div class="progress pointer">
-                                                    <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #6f4e37;" original-pos="80%" before-text="Level 18.250" after-text="18.250 xícaras de café">Level 18.250</div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2"><center><small style="color: #a5a5a5;">Passe o mouse para relevar</small></center></td>
-                                        </tr>
-                                    </table>
-                                </div>      
-                            </div>
-                        </div>
                         <div class="card-footer">
                             <div class="col-md-10 offset-md-1 text-center">
                                 <a href="https://www.linkedin.com/in/tiago-boriça-57035b161/" target="_blank" alt="linkedin"><ion-icon size="large" class="text-secondary profile-icon-blue" name="logo-linkedin"></ion-icon></a>
@@ -173,7 +137,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-9">
+                <div class="col-xs-12 
+                            col-sm-12 
+                            col-md-10
+                            offset-md-1 
+                            col-lg-10
+                            offset-lg-1
+                            col-xl-9
+                            offset-xl-0 
+                            col-xxl-9
+                            offset-xxl-0">
                     <div class="card shadow-lg mt-2 bg-white">
                         <div class="card-body">                                
                             <h2 class="whatever headerGreeting-title" translate="yes">Olá! Prazer em conhecê-lo...</h2>
@@ -298,13 +271,27 @@
                             <hr/>
                             <h2 class="academicHistory-title" translate="yes">Histórico acadêmico</h2>
                             <div class="row align-items-center svg-new mx-1 rounded">
-                               
-                                <div class="col-md-3 card offset-md-2 mt-5 mb-5">
+                                
+                                <div class="col-10 
+                                            offset-1 
+                                            col-sm-10 
+                                            offset-sm-1
+                                            col-md-10
+                                            offset-md-1 
+                                            col-lg-3
+                                            offset-lg-2
+                                            col-xl-3
+                                            offset-xl-2 
+                                            col-xxl-3
+                                            offset-xxl-2
+                                            card 
+                                            mt-5 
+                                            ">
                                     <div class="card-header text-center academicHistory-speiCard-cardTitle" translate="yes">
                                         Colégio SPEI
                                     </div>
                                     <div class="card-body">
-                                        <img src="images/spei.png" class="mx-auto d-block" alt="" height="100px">
+                                        <img src="images/spei.png" class="mx-auto d-block img-fluid" alt="spei logo">
                                     </div>
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon><span class="academicHistory-speiCard-course" translate="yes">Técnico em Informática</span></li>
@@ -313,16 +300,33 @@
                                     </ul>
                                 </div>
 
-                                <div class="col-md-2 text-center text-light">
+                                <div class="col-lg-2 d-none d-lg-block text-center text-light">
                                     <ion-icon name="arrow-forward-outline" size="large"></ion-icon>
                                 </div>
 
-                                <div class="col-md-3 card">
+                                <div class="col-12 d-lg-none text-center text-light mt-5">
+                                    <ion-icon name="arrow-down-outline" size="large"></ion-icon>
+                                </div>
+
+                                <div class="col-10 
+                                            offset-1 
+                                            col-sm-10 
+                                            offset-sm-1
+                                            col-md-10
+                                            offset-md-1 
+                                            col-lg-3
+                                            offset-lg-0
+                                            col-xl-3
+                                            offset-xl-0 
+                                            col-xxl-3
+                                            offset-xxl-0
+                                            card
+                                            mt-5">
                                     <div class="card-header text-center academicHistory-opetCard-cardTitle" translate="yes">
                                         Faculdades OPET
                                     </div>
                                     <div class="card-body">
-                                        <img src="images/opet-logo.png" class="mx-auto d-block" alt="" height="100px">
+                                        <img src="images/opet-logo.png" class="mx-auto d-block img-fluid" alt="opet logo">
                                     </div>
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item d-flex align-items-center"><ion-icon name="book-outline" class="fs-22 me-2"></ion-icon><span class="pointer academicHistory-opetCard-course" id="readHelper" data-bs-toggle="tooltip" data-bs-placement="right" title="Análise e Desenvolvimento de Sistemas" translate="yes">TADS</span></li>
@@ -330,6 +334,9 @@
                                         <li class="list-group-item d-flex align-items-center"><ion-icon name="alert-circle-outline" class="fs-22 me-2 text-primary"></ion-icon><span class="academicHistory-opetCard-status" translate="yes">Cursando</span></li>
                                     </ul>
                                 </div>
+
+                                <div class="col-12 mb-5"> </div>
+
                             </div>
                             <hr/>
                             <h2 class="showcase-leftPanelInfo-title" translate="yes">Projetos</h2>
