@@ -24,6 +24,35 @@ function getGeneratedAge() {
     return ~~((Date.now() - birthday) / (31557600000));
 }
 
+//Returns experience time
+function getGeneratedExperienceTime() {
+    let firstExp = +new Date(2017, 09, 01);
+    return ~~((Date.now() - firstExp) / (31557600000));
+}
+
+//Returns experience time
+function getAmountOfLeapYears(startYear, endYear) {
+    let leapYears = 0;
+    
+    for (let index = startYear; index < endYear; index++) {
+        
+        if((index % 4 === 0 && index % 100 != 0) || ano % 400 === 0)
+            leapYears += 1;
+    }
+    
+    return leapYears;
+}
+
+//Returns all time cups of time
+function getGeneratedCupsOfCoffe() {
+    let age = getGeneratedAge();
+    let cupsOfCoffePerDay = 2;
+    let leapYears = getAmountOfLeapYears(1997, new Date().getFullYear());
+    let amountsOfDaysTotal = (365 * age) + leapYears;
+
+    return amountsOfDaysTotal * cupsOfCoffePerDay;
+}
+
 //Yes, probably not the best way to do this :/ 
 //Kinda lame to translate views without using variables or html interpolation like you would do with angular for example...
 function translate(json, language) {
