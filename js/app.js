@@ -20,6 +20,8 @@ $(() => {
     let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
+    $('#overlay').fadeOut();
+    $('body').css("overflow", "auto");
 },);
 
 //Profile picture select

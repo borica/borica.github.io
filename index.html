@@ -55,7 +55,18 @@
         <link rel="stylesheet" href="style.css">
         <title>Tiago Boriça - Webdev</title>
     </head>
-    <body class="dark-gradient-container full-vh">
+    <body class="dark-gradient-container full-vh" style="overflow: hidden;">
+        <div id="overlay" class="body-overlay w-100 h-100 bg-dark text-light">
+            <div class="container">
+                <div class="row full-vh align-items-center justify-content-center">
+                    <div class="col-1">
+                        <div class="spinner-border text-light" style="width: 90px; height: 90px;" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">                
                 
