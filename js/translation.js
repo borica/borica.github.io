@@ -59,7 +59,7 @@ function translate(json, language) {
     let elementsToTranslate = document.querySelectorAll('[translate]');
     
     if(language === "eng") {
-        for(i = 0; i < elementsToTranslate.length; i++) {
+        for(let i = 0; i < elementsToTranslate.length; i++) {
             //Profile card section
             if(elementsToTranslate[i].classList.contains("profileCard-position")) {
                 elementsToTranslate[i].textContent = json.profileCard.eng.position;
@@ -176,32 +176,49 @@ function translate(json, language) {
             }
 
             //Showcase section
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-title")) {
+            if(elementsToTranslate[i].classList.contains("showcase-title")) {
                 elementsToTranslate[i].textContent = json.showcase.eng.title;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-description")) {
+            if(elementsToTranslate[i].classList.contains("showcase-description")) {
                 elementsToTranslate[i].textContent = json.showcase.eng.description;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-date")) {
-                elementsToTranslate[i].textContent = json.showcase.eng.leftPanelInfo.date;
+            //Sonic Card
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.sonicCard.leftPanelInfo.date;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-type")) {
-                elementsToTranslate[i].textContent = json.showcase.eng.leftPanelInfo.type;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.sonicCard.leftPanelInfo.type;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-category")) {
-                elementsToTranslate[i].textContent = json.showcase.eng.leftPanelInfo.category;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.sonicCard.leftPanelInfo.category;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-rightPanelInfo-title")) {
-                elementsToTranslate[i].textContent = json.showcase.eng.rightPanelInfo.title;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.sonicCard.rightPanelInfo.title;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-rightPanelInfo-text")) {
-                elementsToTranslate[i].textContent = json.showcase.eng.rightPanelInfo.text;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.sonicCard.rightPanelInfo.text;
+            }
+            //Tinman Card
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.tinmanCard.leftPanelInfo.date;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.tinmanCard.leftPanelInfo.type;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.tinmanCard.leftPanelInfo.category;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.tinmanCard.rightPanelInfo.title;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.tinmanCard.rightPanelInfo.text;
             }
         }
     }
     
     if(language === "ptb") {
-        for(i = 0; i < elementsToTranslate.length; i++) {
+        for(let i = 0; i < elementsToTranslate.length; i++) {
             //Profile card section
             if(elementsToTranslate[i].classList.contains("profileCard-position")) {
                 elementsToTranslate[i].textContent = json.profileCard.ptb.position;
@@ -318,26 +335,43 @@ function translate(json, language) {
             }
 
             //Showcase section
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-title")) {
+            if(elementsToTranslate[i].classList.contains("showcase-title")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.title;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-description")) {
+            if(elementsToTranslate[i].classList.contains("showcase-description")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.description;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-date")) {
-                elementsToTranslate[i].textContent = json.showcase.ptb.leftPanelInfo.date;
+            //Sonic Card
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.leftPanelInfo.date;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-type")) {
-                elementsToTranslate[i].textContent = json.showcase.ptb.leftPanelInfo.type;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.leftPanelInfo.type;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-leftPanelInfo-category")) {
-                elementsToTranslate[i].textContent = json.showcase.ptb.leftPanelInfo.category;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.leftPanelInfo.category;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-rightPanelInfo-title")) {
-                elementsToTranslate[i].textContent = json.showcase.ptb.rightPanelInfo.title;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.rightPanelInfo.title;
             }
-            if(elementsToTranslate[i].classList.contains("showcase-rightPanelInfo-text")) {
-                elementsToTranslate[i].textContent = json.showcase.ptb.rightPanelInfo.text;
+            if(elementsToTranslate[i].classList.contains("showcase-sonicCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.rightPanelInfo.text;
+            }
+            //Tinman Card
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.leftPanelInfo.date;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.leftPanelInfo.type;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.leftPanelInfo.category;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.rightPanelInfo.title;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.rightPanelInfo.text;
             }
         }
     }
