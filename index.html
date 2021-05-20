@@ -92,8 +92,10 @@
                             
                             <div class="col-12">
                                 <div class="row justify-content-center">
-                                    <div class="gradient-container full-radius p-1 ms-2">
-                                        <img id="profile-picture" class="img-fluid full-radius" src="" alt=""/>
+                                    <div id="profile-avatar-container" class="gradient-container full-radius p-1 ms-2">
+                                        <div class="profile-easteregg full-radius w-100 h-100">
+                                            <img id="profile-picture" class="img-fluid full-radius" src="" alt="Tiago's profile picture"/>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -352,12 +354,12 @@
                                 <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Tinman Art</div>
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-9">
+                                        <div class="col-md-9 flex-view-sticky-bottom">
                                             <h5 class="card-title showcase-tinmanCard-rightPanelInfo-title" translate="yes">Tinman Art - Portfolio</h5>
                                             <p class="card-text showcase-tinmanCard-rightPanelInfo-text" translate="yes">
                                                 Desde muito cedo, meu primo já possuia aptidão para o desenho, algo que sempre foi muito presente em nossa familia. Após muito treinamento e pensar no assunto, ele optou por seguir na área de Design, visando sempre que pode, aprimorar suas habilidades na ilustração e um dia trabalhar apenas com suas artes e desenhos. Pensando nisso, ele me venho com a ideia de criar uma portfólio em que ele pudesse mostrar suas artes, de maneira simples e rápida, mas não menos elegante. Assim, depois de brainstorms de ideias chegamos em um formato similar a este site meu, porém totalmente voltado para as artes dele. Sinta-se a vontade para conferir nosso trabalho.
                                             </p>
-                                            <a href="https://tinman-art.github.io/" target="_blank" class="btn btn-primary w-100 text-center"><ion-icon class="fs-22 mt-2" name="link-outline"></ion-icon></a>
+                                            <a href="https://tinman-art.github.io/" target="_blank" class="btn btn-primary w-100 text-center margin-top-auto mb-3"><ion-icon class="fs-22 mt-2" name="link-outline"></ion-icon></a>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="card text-dark bg-white mb-3">                                                
@@ -388,7 +390,7 @@
 
                             <div class="card text-white green-hill-zone-bg mt-3">
                                 <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Sonic</div>
-                                <div class="card-body">
+                                <div class="card-body start-hidden">
                                     <div class="row">
                                         <div class="col-md-3">
                                             <div class="card text-dark bg-white mb-3">                                                
@@ -413,17 +415,95 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col-md-9">
+                                        <div class="col-md-9 flex-view-sticky-bottom">
                                             <h5 class="card-title showcase-sonicCard-rightPanelInfo-title" translate="yes">Sonic Phaser Game</h5>
                                             <p class="card-text showcase-sonicCard-rightPanelInfo-text" translate="yes">
                                                 O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem.
                                             </p>
-                                            <a href="showcase/sonic/game.html" target="_blank" class="btn btn-primary w-100 text-center"><ion-icon class="fs-22 mt-2" name="play-outline"></ion-icon></a>
+                                            <a href="showcase/sonic/game.html" target="_blank" class="btn btn-primary w-100 text-center margin-top-auto mb-3"><ion-icon class="fs-22 mt-2" name="play-outline"></ion-icon></a>
                                         </div>
                                     </div>                                    
                                 </div>
                             </div>
-                          
+
+                            <div class="card text-white mt-3 dark-colored-svg-bg">
+                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Guess the color</div>
+                                <div class="card-body start-hidden">
+                                    <div class="row">
+                                        <div class="col-md-9 flex-view-sticky-bottom">
+                                            <h5 class="card-title showcase-guessTheColorCard-rightPanelInfo-title" translate="yes">Calculator</h5>
+                                            <p class="card-text showcase-guessTheColorCard-rightPanelInfo-text" translate="yes">
+                                                placeholder.
+                                            </p>
+                                            <a href="showcase/guessTheColor/index.html" style="margin-top:auto;" target="_blank" class="btn btn-primary w-100 text-center margin-top-auto mb-3"><ion-icon class="fs-22 mt-2" name="play-outline"></ion-icon></a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="card text-dark bg-white mb-3">                                                
+                                                <div class="card-body" style="padding: 2px;">
+                                                    <img src="images/color-wheel.png" class="w-100 rounded" />
+                                                    <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item d-flex align-items-center">
+                                                        <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
+                                                        <span class="ms-2 showcase-guessTheColorCard-leftPanelInfo-date" translate="yes">2021</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item d-flex align-items-center">
+                                                        <ion-icon name="game-controller-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2 showcase-guessTheColorCard-leftPanelInfo-type" translate="yes">Portfolio</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item d-flex align-items-center">
+                                                        <ion-icon name="person-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2 showcase-guessTheColorCard-leftPanelInfo-category" translate="yes">Pessoal</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                            <div class="card text-white mt-3 svg-card">
+                                <div class="card-header pointer d-flex align-items-center" id="expandTooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Click para expandir"><ion-icon style="font-size:25px; margin-right: 10px;" name="chevron-down-outline"></ion-icon>Dummy Calculator!</div>
+                                <div class="card-body start-hidden">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="card text-dark bg-white mb-3">                                                
+                                                <div class="card-body" style="padding: 2px;">
+                                                    <img src="images/calc.png" class="w-100 rounded" />
+                                                    <!-- <a href='https://br.freepik.com/vetores/icone'>Ícone vetor criado por rawpixel.com - br.freepik.com</a> -->
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item d-flex align-items-center">
+                                                        <ion-icon name="time-outline" class="fs-22"></ion-icon></ion-icon>
+                                                        <span class="ms-2 showcase-calculatorCard-leftPanelInfo-date" translate="yes">2017</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item d-flex align-items-center">
+                                                        <ion-icon name="build-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2 showcase-calculatorCard-leftPanelInfo-type" translate="yes">Utilidade</span>
+                                                    </li>
+                                                    
+                                                    <li class="list-group-item d-flex align-items-center">
+                                                        <ion-icon name="person-outline" class="fs-22"></ion-icon>
+                                                        <span class="ms-2 showcase-calculatorCard-leftPanelInfo-category" translate="yes">Pessoal</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 flex-view-sticky-bottom">
+                                            <h5 class="card-title showcase-calculatorCard-rightPanelInfo-title" translate="yes">Calculator</h5>
+                                            <p class="card-text showcase-calculatorCard-rightPanelInfo-text" translate="yes">
+                                                placeholder.
+                                            </p>
+                                            <a href="showcase/calculator/index.html" target="_blank" class="btn btn-primary w-100 text-center margin-top-auto mb-3"><ion-icon class="fs-22 mt-2" name="link-outline"></ion-icon></a>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

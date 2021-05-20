@@ -146,24 +146,35 @@
                 },
                 "rightPanelInfo" : {
                     "title" : "Tinman Art - Portfolio",
-                    "text"  : "Desde muito cedo, meu primo já possuia aptidão para o desenho, algo que sempre foi muito presente em nossa familia. Após muito treinamento e ponderamento, ele optou por seguir na área de Design, visando sempre que pode, aprimorar suas habilidades na ilustração e um dia trabalhar apenas com suas artes e desenhos. Pensando nisso, ele me trouxe a ideia de criar uma portfólio em que ele pudesse mostrar suas artes, de maneira simples e rápida, mas não menos elegante. Assim, depois de brainstorms de ideias chegamos em um formato similar a este site meu, porém totalmente voltado para as artes dele. Sinta-se a vontade para conferir nosso trabalho. Se algo estiver meio fora do lugar, pedimos desculpa pois ainda está em um estágio inicial :)"
+                    "text"  : "Desde muito cedo, meu primo já possuia aptidão para o desenho, algo que sempre foi muito presente em nossa familia. Após muito treinamento e ponderamento, ele optou por seguir na área de Design, visando sempre que pode, aprimorar suas habilidades na ilustração e um dia trabalhar apenas com suas artes e desenhos. Pensando nisso, ele me trouxe a ideia de criar um portfólio em que ele pudesse mostrar suas artes, de maneira simples e rápida, mas não menos elegante. Assim, depois de algumas brainstorms de ideias chegamos em um formato similar a este site meu, porém totalmente voltado para as artes dele. Sinta-se a vontade para conferir nosso trabalho. Se algo estiver meio fora do lugar, pedimos desculpa pois ainda está em um estágio inicial 😇"
                 }
-            }        
+            },
+            "guessTheColorCard" : {
+                "leftPanelInfo" : {
+                    "date"      : "2017",
+                    "type"      : "Jogo",
+                    "category"  : "Pessoal"
+                },
+                "rightPanelInfo" : {
+                    "title" : "Um jogo(ou quase) de adivinhar cores",
+                    "text"  : "Neste pequeno projeto você sente na pele a emoção de ser o Akinator, lembra daquele geniozinho que advinha qual personagem você está pensando ? Porém agora é você quem deve advinhar. Parece que jogo virou não é mesmo ?! Tente advinhar o que a máquina está pensando. Mas não tente demais pois acabou que não dei tanta atenção ao refinar as dicas e até na validação das respostas, só pra brincar mesmo 😋"
+                }
+            },
+            "calculatorCard" : {
+                "leftPanelInfo" : {
+                    "date"      : "2017",
+                    "type"      : "Utilidade",
+                    "category"  : "Pessoal"
+                },
+                "rightPanelInfo" : {
+                    "title" : "Calculadora simples com JS+HTML",
+                    "text"  : "Como não poderia deixar de ser, um dos meus primeiros projetos pessoais foi uma calculadora utilizando JS, Bootstrap e CSS para estilização dos tamanhos. Ela possui um funcionamento básico, apenas com as funções principais, não possui nem a função de multiplicação. Pensei em alterar e aprimorar (e resolver bugs) um pouco mais esse projeto apenas para mostrar aqui, mas meio que iria perder a essência histórica."
+                }
+            }                
         },
         "eng" : {
             "title" : "Showcase",
             "description" : "Over the years I've accumulated some personal and academic projects I had fun going through. In this section I'd like to show you some of those projects.",
-            "sonicCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2018 - WIP",
-                    "type"      : "Game",
-                    "category"  : "Personal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Sonic Phaser Game",
-                    "text"  : "The nostalgic blue hedgehog were always present in my childhood. I have memories of spending hours and hours playing games of the Sonic franchise. On 2018, I attended to an internal workshop in my company focused in the JavaScript language, so I decided I should give it a try and relive him once again in my personal project. This project was really fun to begin, up until this day it remains in a very early stage, much of the time was used to develop the base concepts to walk, jump and animate the character."
-                }               
-            },
             "tinmanCard" : {
                 "leftPanelInfo" : {
                     "date"      : "2021 - WIP",
@@ -172,9 +183,42 @@
                 },
                 "rightPanelInfo" : {
                     "title" : "Tinman Art - Portfolio",
-                    "text"  : "Since his young age, my cousin already had a gift for drawing, something that has been present in my family for decades. After practice and giving some thought into, he decided he should go on the pursuit of his Design degree, but never giving up to enhance his illustration skills, hoping someday work with his arts and drawings. After some water went under the bridge, he came to me with this idea of putting together a portfolio, whose he could display his arts, in a simple and fast yet fancy way. So, after some brainstorms we came up with a similar design of this site, but with the attention completely turned onto his arts. Please, take a look at our work. If something feels a bit out of place, we apologize, it is still in early stages :)"
+                    "text"  : "Since his young age, my cousin already had a gift for drawing, something that has been present in my family for decades. After practice and giving some thought into, he decided he should go on the pursuit of his Design degree, but never giving up to enhance his illustration skills, hoping someday work with his arts and drawings. After some water went under the bridge, he came to me with this idea of putting together a portfolio, whose he could display his arts, in a simple and fast yet fancy way. So, after some brainstorms we came up with a similar design of this site, but with the attention completely turned onto his arts. Please, take a look at our work. If something feels a bit out of place, we apologize, it is still in early stages 😇"
                 }
-            }        
+            },
+            "sonicCard" : {
+                "leftPanelInfo" : {
+                    "date"      : "2018 - WIP",
+                    "type"      : "Game",
+                    "category"  : "Personal"
+                },
+                "rightPanelInfo" : {
+                    "title" : "Sonic Phaser Game",
+                    "text"  : "The nostalgic blue hedgehog were always present in my childhood. I have memories of spending hours and hours playing games of the Sonic franchise. On 2018, I attended to an internal workshop in my company focused on the JavaScript language, so I decided I should give it a try and relive him once again in my personal project. This project was really fun to begin, up until this day it remains in a very early stage, much of the time was used to develop the base concepts to walk, jump and animate the character."
+                }               
+            },
+            "guessTheColorCard" : {
+                "leftPanelInfo" : {
+                    "date"      : "2017",
+                    "type"      : "Game",
+                    "category"  : "Personal"
+                },
+                "rightPanelInfo" : {
+                    "title" : "Dummy Guess The Color Game(ish?)",
+                    "text"  : "In this project you get in the shoes of Akinator, that genie that guesses what character you're thinking on. But now you have to guess what the machine is thinking of. Funny how the tables turn huh ? Take your chances and try to guess, but don't try to hard because it's not so well developed and it has somes bugs 😋"
+                }
+            },
+            "calculatorCard" : {
+                "leftPanelInfo" : {
+                    "date"      : "2017",
+                    "type"      : "Utility",
+                    "category"  : "Personal"
+                },
+                "rightPanelInfo" : {
+                    "title" : "Dummy JS+HTML Calculator",
+                    "text"  : "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator, but it doesn't even have the multiplication function sadly. It planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but kinda would lose its historic purpose."
+                }
+            }                
         }
     }
 }

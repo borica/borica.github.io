@@ -214,6 +214,40 @@ function translate(json, language) {
             if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-rightPanelInfo-text")) {
                 elementsToTranslate[i].textContent = json.showcase.eng.tinmanCard.rightPanelInfo.text;
             }
+
+            //Guess the color Card
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.guessTheColorCard.leftPanelInfo.date;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.guessTheColorCard.leftPanelInfo.type;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.guessTheColorCard.leftPanelInfo.category;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.guessTheColorCard.rightPanelInfo.title;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.guessTheColorCard.rightPanelInfo.text;
+            }
+
+            //Calculator Card
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.calculatorCard.leftPanelInfo.date;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.calculatorCard.leftPanelInfo.type;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.calculatorCard.leftPanelInfo.category;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.calculatorCard.rightPanelInfo.title;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.eng.calculatorCard.rightPanelInfo.text;
+            }
         }
     }
     
@@ -341,6 +375,7 @@ function translate(json, language) {
             if(elementsToTranslate[i].classList.contains("showcase-description")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.description;
             }
+
             //Sonic Card
             if(elementsToTranslate[i].classList.contains("showcase-sonicCard-leftPanelInfo-date")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.leftPanelInfo.date;
@@ -357,6 +392,7 @@ function translate(json, language) {
             if(elementsToTranslate[i].classList.contains("showcase-sonicCard-rightPanelInfo-text")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.sonicCard.rightPanelInfo.text;
             }
+
             //Tinman Card
             if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-leftPanelInfo-date")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.leftPanelInfo.date;
@@ -372,6 +408,40 @@ function translate(json, language) {
             }
             if(elementsToTranslate[i].classList.contains("showcase-tinmanCard-rightPanelInfo-text")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.tinmanCard.rightPanelInfo.text;
+            }
+
+            //Guess the color Card
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.guessTheColorCard.leftPanelInfo.date;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.guessTheColorCard.leftPanelInfo.type;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.guessTheColorCard.leftPanelInfo.category;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.guessTheColorCard.rightPanelInfo.title;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-guessTheColorCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.guessTheColorCard.rightPanelInfo.text;
+            }
+
+             //Calculator Card
+             if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-date")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.leftPanelInfo.date;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-type")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.leftPanelInfo.type;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-category")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.leftPanelInfo.category;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-rightPanelInfo-title")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.rightPanelInfo.title;
+            }
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-rightPanelInfo-text")) {
+                elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.rightPanelInfo.text;
             }
         }
     }

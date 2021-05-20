@@ -1,3 +1,9 @@
 [submodule "showcase/sonic"]
 	path = showcase/sonic
 	url = https://github.com/borica/sonic.git
+[submodule "showcase/calculator"]
+	path = showcase/calculator
+	url = https://github.com/borica/calculator.git
+[submodule "showcase/guessTheColor"]
+	path = showcase/guessTheColor
+	url = https://github.com/borica/guessTheColor

@@ -24,11 +24,17 @@ $(() => {
 
 //Profile picture select
 function randomProfilePic(){
-    let random = Math.floor(Math.random() * 2);
-    console.log(random);
+    let random = Math.floor(Math.random() * 2);    
     $("#profile-picture").attr("src", "images/"+random+".jpg");
-
 }
+
+//Reveal/unreveal the easteregg
+$("#profile-avatar-container").hover(function(){
+    $("#profile-picture").fadeOut();
+    console.log("MouseIn");
+}, function(){
+    $("#profile-picture").fadeIn();
+});
 
 //Lvl up progress bars
 $('.progress').hover((eventHandle) => {
