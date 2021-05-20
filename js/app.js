@@ -20,7 +20,8 @@ $(() => {
     let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-    $('#overlay').fadeOut();
+    
+    setTimeout(() => {$('#overlay').fadeOut();}, 250);
     $('body').css("overflow", "auto");
 },);
 
