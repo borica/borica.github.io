@@ -1,5 +1,6 @@
 $(() => {
     translationStart("ptb");
+    randomProfilePic();
     $('.start-hidden').hide();
     $('.card-header').click((eventHandle)=>{
         let cardBody = "";
@@ -20,6 +21,14 @@ $(() => {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
 },);
+
+//Profile picture select
+function randomProfilePic(){
+    let random = Math.floor(Math.random() * 2);
+    console.log(random);
+    $("#profile-picture").attr("src", "images/"+random+".jpg");
+
+}
 
 //Lvl up progress bars
 $('.progress').hover((eventHandle) => {
