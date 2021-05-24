@@ -24,7 +24,7 @@
         },
         "eng" : {
             "title": "Hey! Nice to see you...",
-            "text" : "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a toddler, so it was very natural for me to know what type o career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
+            "text" : "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a child, so it was very natural for me to know what type o career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
         }
     },
     "experiences" : {
@@ -216,7 +216,7 @@
                 },
                 "rightPanelInfo" : {
                     "title" : "Dummy JS+HTML Calculator",
-                    "text"  : "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator, but it doesn't even have the multiplication function sadly. It planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but kinda would lose its historic purpose."
+                    "text"  : "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator, but it doesn't even have the multiplication function sadly. I planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but it kinda would lose its historic purpose."
                 }
             }                
         }
