@@ -1,20 +1,26 @@
 {   
     "profileCard": {
         "ptb" : {
-            "age"             : "{replace_age} anos",
-            "yearsExperience" : "anos de experiencia",
-            "coffee"          : "xícaras de café",
-            "hint"            : "Passe o mouse para revelar",
-            "location"        : "Curitiba, Brasil",
-            "position"        : "Desenvolvedor"
+            "age"                   : "{replace_age} anos",
+            "ageShort"              : "{replace_age}",
+            "yearsExperience"       : "{replace_year} anos de experiencia",
+            "yearsExperienceShort"  : "{replace_year}",
+            "coffee"                : "{replace_cups} xícaras de café",
+            "coffeeShort"           : "{replace_cups}",
+            "hint"                  : "Passe o mouse para revelar",
+            "location"              : "Curitiba, Brasil",
+            "position"              : "Desenvolvedor"
         },
         "eng" : {
-            "age"             : "{replace_age} years old",
-            "yearsExperience" : "years of experience",
-            "coffee"          : "Cups of coffee",
-            "hint"            : "Hover your mouse to reveal",
-            "location"        : "Curitiba, Brazil",
-            "position"        : "Developer"
+            "age"                   : "{replace_age} years old",
+            "ageShort"              : "{replace_age}",
+            "yearsExperience"       : "{replace_year} years of experience",
+            "yearsExperienceShort"  : "{replace_year}",
+            "coffee"                : "{replace_cups} Cups of coffee",
+            "coffeeShort"           : "{replace_cups}",
+            "hint"                  : "Hover your mouse to reveal",
+            "location"              : "Curitiba, Brazil",
+            "position"              : "Developer"
         }
     },
     "headerGreeting" : {
@@ -24,7 +30,7 @@
         },
         "eng" : {
             "title": "Hey! Nice to see you...",
-            "text" : "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a child, so it was very natural for me to know what type o career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
+            "text" : "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a child, so it was very natural for me to know what type of career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
         }
     },
     "experiences" : {
@@ -216,7 +222,7 @@
                 },
                 "rightPanelInfo" : {
                     "title" : "Dummy JS+HTML Calculator",
-                    "text"  : "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator, but it doesn't even have the multiplication function sadly. I planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but it kinda would lose its historic purpose."
+                    "text"  : "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator,but it doesn't even have the multiplication function sadly. I planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but it kinda would lose its historic purpose."
                 }
             }                
         }

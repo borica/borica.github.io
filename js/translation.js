@@ -6,17 +6,36 @@ async function getTranslationJSON() {
 // Function that actually does the translation
 function translationStart(translation) {
     translationJSON = getTranslationJSON().then(result => {
-        let age = getGeneratedAge();
-
-        //fixing age
-        result.headerGreeting.eng.text = result.headerGreeting.eng.text.replace('{replace_age}', age);
-        result.headerGreeting.ptb.text = result.headerGreeting.ptb.text.replace('{replace_age}', age);
-        result.profileCard.eng.age = result.profileCard.eng.age.replace('{replace_age}', age);
-        result.profileCard.ptb.age = result.profileCard.ptb.age.replace('{replace_age}', age);
-        
+        generateDynamicValues(result);
         translate(result, translation);
     });
 }
+
+
+function generateDynamicValues(result) {
+    let age = getGeneratedAge();
+    let expTime = getGeneratedExperienceTime();
+    let cups = getGeneratedCupsOfCoffe();
+    
+    //fixing age
+    result.headerGreeting.eng.text = result.headerGreeting.eng.text.replace('{replace_age}', age);
+    result.headerGreeting.ptb.text = result.headerGreeting.ptb.text.replace('{replace_age}', age);
+    
+    result.profileCard.eng.age = result.profileCard.eng.age.replace('{replace_age}', age);
+    result.profileCard.ptb.age = result.profileCard.ptb.age.replace('{replace_age}', age);
+    result.profileCard.eng.ageShort = result.profileCard.eng.ageShort.replace('{replace_age}', age);
+    result.profileCard.ptb.ageShort = result.profileCard.ptb.ageShort.replace('{replace_age}', age);
+
+    result.profileCard.eng.yearsExperience = result.profileCard.eng.yearsExperience.replace('{replace_year}', expTime);
+    result.profileCard.ptb.yearsExperience = result.profileCard.ptb.yearsExperience.replace('{replace_year}', expTime);
+    result.profileCard.eng.yearsExperienceShort = result.profileCard.eng.yearsExperienceShort.replace('{replace_year}', expTime);
+    result.profileCard.ptb.yearsExperienceShort = result.profileCard.ptb.yearsExperienceShort.replace('{replace_year}', expTime);
+
+    result.profileCard.eng.coffee = result.profileCard.eng.coffee.replace('{replace_cups}', cups);
+    result.profileCard.ptb.coffee = result.profileCard.ptb.coffee.replace('{replace_cups}', cups);
+    result.profileCard.eng.coffeeShort = result.profileCard.eng.coffeeShort.replace('{replace_cups}', cups);
+    result.profileCard.ptb.coffeeShort = result.profileCard.ptb.coffeeShort.replace('{replace_cups}', cups);
+};
 
 //Returns age automatically
 function getGeneratedAge() {
@@ -30,13 +49,13 @@ function getGeneratedExperienceTime() {
     return ~~((Date.now() - firstExp) / (31557600000));
 }
 
-//Returns experience time
+//Returns amount of leapyears given a range of years
 function getAmountOfLeapYears(startYear, endYear) {
     let leapYears = 0;
     
-    for (let index = startYear; index < endYear; index++) {
+    for (let index = startYear; index <= endYear; index++) {
         
-        if((index % 4 === 0 && index % 100 != 0) || ano % 400 === 0)
+        if((index % 4 === 0 && index % 100 != 0) || index % 400 === 0)
             leapYears += 1;
     }
     
@@ -68,16 +87,19 @@ function translate(json, language) {
                 elementsToTranslate[i].textContent = json.profileCard.eng.location;
             }
             if(elementsToTranslate[i].classList.contains("profileCard-age")) {
-                //change the attribute
-                elementsToTranslate[i].textContent = json.profileCard.eng.age;
+                elementsToTranslate[i].textContent = "Level " + json.profileCard.eng.ageShort;
+                elementsToTranslate[i].setAttribute("before-text", "Level " + json.profileCard.eng.ageShort);
+                elementsToTranslate[i].setAttribute("after-text", json.profileCard.eng.age);
             }
             if(elementsToTranslate[i].classList.contains("profileCard-yearsExperience")) {
-                //change the attribute
-                elementsToTranslate[i].textContent = json.profileCard.eng.yearsExperience;
+                elementsToTranslate[i].textContent = "Level " + json.profileCard.eng.yearsExperienceShort;
+                elementsToTranslate[i].setAttribute("before-text", "Level " + json.profileCard.eng.yearsExperienceShort);
+                elementsToTranslate[i].setAttribute("after-text", json.profileCard.eng.yearsExperience);
             }
             if(elementsToTranslate[i].classList.contains("profileCard-coffee")) {
-                //change the attribute
-                elementsToTranslate[i].textContent = json.profileCard.eng.coffee;
+                elementsToTranslate[i].textContent = "Level " + json.profileCard.eng.coffeeShort;
+                elementsToTranslate[i].setAttribute("before-text", "Level " + json.profileCard.eng.coffeeShort);
+                elementsToTranslate[i].setAttribute("after-text", json.profileCard.eng.coffee);
             }
             if(elementsToTranslate[i].classList.contains("profileCard-hint")) {
                 elementsToTranslate[i].textContent = json.profileCard.eng.hint;
@@ -261,16 +283,19 @@ function translate(json, language) {
                 elementsToTranslate[i].textContent = json.profileCard.ptb.location;
             }
             if(elementsToTranslate[i].classList.contains("profileCard-age")) {
-                //change the attribute
-                elementsToTranslate[i].textContent = json.profileCard.ptb.age;
+                elementsToTranslate[i].textContent = "Nível " + json.profileCard.ptb.ageShort;
+                elementsToTranslate[i].setAttribute("before-text", "Nível " + json.profileCard.ptb.ageShort);
+                elementsToTranslate[i].setAttribute("after-text", json.profileCard.ptb.age);
             }
             if(elementsToTranslate[i].classList.contains("profileCard-yearsExperience")) {
-                //change the attribute
-                elementsToTranslate[i].textContent = json.profileCard.ptb.yearsExperience;
+                elementsToTranslate[i].textContent = "Nível " + json.profileCard.ptb.yearsExperienceShort;
+                elementsToTranslate[i].setAttribute("before-text", "Nível " + json.profileCard.ptb.yearsExperienceShort);
+                elementsToTranslate[i].setAttribute("after-text", json.profileCard.ptb.yearsExperience);
             }
             if(elementsToTranslate[i].classList.contains("profileCard-coffee")) {
-                //change the attribute
-                elementsToTranslate[i].textContent = json.profileCard.ptb.coffee;
+                elementsToTranslate[i].textContent = "Nível " + json.profileCard.ptb.coffeeShort;
+                elementsToTranslate[i].setAttribute("before-text", "Nível " + json.profileCard.ptb.coffeeShort);
+                elementsToTranslate[i].setAttribute("after-text", json.profileCard.ptb.coffee);
             }
             if(elementsToTranslate[i].classList.contains("profileCard-hint")) {
                 elementsToTranslate[i].textContent = json.profileCard.ptb.hint;
