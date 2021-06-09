@@ -1,14 +1,33 @@
-# Tiago Boriça
+# Tiago Boriça - Portfolio Web page
 
-Hello ! My name is Tiago and i am a passionated web developer. Over the past years i spent my time learning and working in technologies for the web and i plan on keep doing it.
+![Repositoriecover](https://github.com/borica/borica.github.io/blob/master/images/repo-cover.png)
 
-## My goal
-My goal is to build comprehensive apps, with sustainability and passion. I'm always into something new and up for a challenge. I want to work in a place where i can grow alongside with the company and where i can work with inspiring people to be noticed and also to recognize them.
+## About me
 
-## Philosophy
-Build a program that runs/compiles is not too hard nowadays, what really is rare is to see a good understandable code. I want to build simple, efficient and easy to read code, whatever the platform i'm working in. 
-I bet you already came across a block of code in some project you've worked on that you could not understand properly what it meant.
+I'm a Brazilian web developer, passionated by coding. 
 
-## Experience
+### My goal
+My goal is to build comprehensive apps, with sustainability and passion. Always be learning is also a must. I'm always into something new and up for a challenge. I want to work in a place where i can grow alongside with the company and where i can work with inspiring people!
 
-I've been messing around with computers since i was a child, so it was no surprise when i decided i wanted to work with something related to that. Currently i'm a computer technician and in the course of the last two years i've been coding in PHP and JAVA languages for two companies.
+## About this Project
+
+This is a very simple Portfolio Webpage, built to be hosted here at github pages. The main objective of this page is to better showcase my personal projects and tell a bit more about me. There's really not much to it.
+
+## Built With
+
+- [Bootstrap V5.0](https://getbootstrap.com/) - Used for all styling and boilerplate components.
+- [jQuery V3.4.1](https://api.jquery.com/) - Used to simplify selectors and animations.
+- [Ionicons](https://ionic.io/ionicons) - All around icons in the website comes from here.
+- [SVG Backgrounds](https://www.svgbackgrounds.com/) - Awesome SVG patterns often used as backgrounds.
+- [Flags Pack](https://www.flaticon.com/packs/flags-18) - Flags artwork used to identify translation.
+- [Google Fonts](https://fonts.google.com/) - Custom fonts used in the website
+
+## Contributing
+
+Found something really weird that you would bother fixing ? Please send a PR, I'd be glad to analyse and accept !
+
+Thank you!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
