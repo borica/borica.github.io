@@ -7,7 +7,7 @@
       "yearsExperienceShort": "{replace_year}",
       "coffee": "{replace_cups} xícaras de café",
       "coffeeShort": "{replace_cups}",
-      "hint": "Passe o mouse para revelar",
+      "hint": "Passe o mouse ou toque para revelar",
       "location": "Curitiba, Brasil",
       "position": "Desenvolvedor"
     },
@@ -18,7 +18,7 @@
       "yearsExperienceShort": "{replace_year}",
       "coffee": "{replace_cups} Cups of coffee",
       "coffeeShort": "{replace_cups}",
-      "hint": "Hover your mouse to reveal",
+      "hint": "Hover/touch the bars to reveal",
       "location": "Curitiba, Brazil",
       "position": "Developer"
     }
