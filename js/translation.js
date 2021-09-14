@@ -117,6 +117,31 @@ function translate(json, language) {
             if(elementsToTranslate[i].classList.contains("experiences-title")) {
                 elementsToTranslate[i].textContent = json.experiences.eng.title;
             }
+            
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-title")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.title;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-badge")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.badge;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-time")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.leftPanelInfo.time;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-area")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.leftPanelInfo.area;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-field")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.leftPanelInfo.field;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-methodology")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.leftPanelInfo.methodology;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-rightPaneInfo-experienceTitle")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.rightPaneInfo.experienceTitle;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-rightPaneInfo-experienceText")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.logcomexCard.rightPaneInfo.experienceText;
+            }
 
             if(elementsToTranslate[i].classList.contains("experiences-everisCard-title")) {
                 elementsToTranslate[i].textContent = json.experiences.eng.everisCard.title;
@@ -132,6 +157,9 @@ function translate(json, language) {
             }
             if(elementsToTranslate[i].classList.contains("experiences-everisCard-leftPanelInfo-field")) {
                 elementsToTranslate[i].textContent = json.experiences.eng.everisCard.leftPanelInfo.field;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-everisCard-leftPanelInfo-methodology")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.everisCard.leftPanelInfo.methodology;
             }
             if(elementsToTranslate[i].classList.contains("experiences-everisCard-rightPaneInfo-experienceTitle")) {
                 elementsToTranslate[i].textContent = json.experiences.eng.everisCard.rightPaneInfo.experienceTitle;
@@ -151,6 +179,9 @@ function translate(json, language) {
             }
             if(elementsToTranslate[i].classList.contains("experiences-sigmaCard-leftPanelInfo-field")) {
                 elementsToTranslate[i].textContent = json.experiences.eng.sigmaCard.leftPanelInfo.field;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-sigmaCard-leftPanelInfo-methodology")) {
+                elementsToTranslate[i].textContent = json.experiences.eng.sigmaCard.leftPanelInfo.methodology;
             }
             if(elementsToTranslate[i].classList.contains("experiences-sigmaCard-rightPaneInfo-experienceTitle")) {
                 elementsToTranslate[i].textContent = json.experiences.eng.sigmaCard.rightPaneInfo.experienceTitle;
@@ -314,6 +345,31 @@ function translate(json, language) {
                 elementsToTranslate[i].textContent = json.experiences.ptb.title;
             }
 
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-title")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.title;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-badge")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.badge;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-time")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.leftPanelInfo.time;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-area")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.leftPanelInfo.area;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-field")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.leftPanelInfo.field;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-leftPanelInfo-methodology")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.leftPanelInfo.methodology;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-rightPaneInfo-experienceTitle")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.rightPaneInfo.experienceTitle;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-logcomexCard-rightPaneInfo-experienceText")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.logcomexCard.rightPaneInfo.experienceText;
+            }
+
             if(elementsToTranslate[i].classList.contains("experiences-everisCard-title")) {
                 elementsToTranslate[i].textContent = json.experiences.ptb.everisCard.title;
             }
@@ -328,6 +384,9 @@ function translate(json, language) {
             }
             if(elementsToTranslate[i].classList.contains("experiences-everisCard-leftPanelInfo-field")) {
                 elementsToTranslate[i].textContent = json.experiences.ptb.everisCard.leftPanelInfo.field;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-everisCard-leftPanelInfo-methodology")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.everisCard.leftPanelInfo.methodology;
             }
             if(elementsToTranslate[i].classList.contains("experiences-everisCard-rightPaneInfo-experienceTitle")) {
                 elementsToTranslate[i].textContent = json.experiences.ptb.everisCard.rightPaneInfo.experienceTitle;
@@ -347,6 +406,9 @@ function translate(json, language) {
             }
             if(elementsToTranslate[i].classList.contains("experiences-sigmaCard-leftPanelInfo-field")) {
                 elementsToTranslate[i].textContent = json.experiences.ptb.sigmaCard.leftPanelInfo.field;
+            }
+            if(elementsToTranslate[i].classList.contains("experiences-sigmaCard-leftPanelInfo-methodology")) {
+                elementsToTranslate[i].textContent = json.experiences.ptb.sigmaCard.leftPanelInfo.methodology;
             }
             if(elementsToTranslate[i].classList.contains("experiences-sigmaCard-rightPaneInfo-experienceTitle")) {
                 elementsToTranslate[i].textContent = json.experiences.ptb.sigmaCard.rightPaneInfo.experienceTitle;

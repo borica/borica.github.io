@@ -1,230 +1,262 @@
-{   
-    "profileCard": {
-        "ptb" : {
-            "age"                   : "{replace_age} anos",
-            "ageShort"              : "{replace_age}",
-            "yearsExperience"       : "{replace_year} anos de experiencia",
-            "yearsExperienceShort"  : "{replace_year}",
-            "coffee"                : "{replace_cups} xícaras de café",
-            "coffeeShort"           : "{replace_cups}",
-            "hint"                  : "Passe o mouse para revelar",
-            "location"              : "Curitiba, Brasil",
-            "position"              : "Desenvolvedor"
-        },
-        "eng" : {
-            "age"                   : "{replace_age} years old",
-            "ageShort"              : "{replace_age}",
-            "yearsExperience"       : "{replace_year} years of experience",
-            "yearsExperienceShort"  : "{replace_year}",
-            "coffee"                : "{replace_cups} Cups of coffee",
-            "coffeeShort"           : "{replace_cups}",
-            "hint"                  : "Hover your mouse to reveal",
-            "location"              : "Curitiba, Brazil",
-            "position"              : "Developer"
-        }
+{
+  "profileCard": {
+    "ptb": {
+      "age": "{replace_age} anos",
+      "ageShort": "{replace_age}",
+      "yearsExperience": "{replace_year} anos de experiencia",
+      "yearsExperienceShort": "{replace_year}",
+      "coffee": "{replace_cups} xícaras de café",
+      "coffeeShort": "{replace_cups}",
+      "hint": "Passe o mouse para revelar",
+      "location": "Curitiba, Brasil",
+      "position": "Desenvolvedor"
     },
-    "headerGreeting" : {
-        "ptb" : {
-            "title": "Olá! Prazer em conhecê-lo...",
-            "text" : "Meu nome é Tiago, tenho {replace_age} anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento."
-        },
-        "eng" : {
-            "title": "Hey! Nice to see you...",
-            "text" : "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a child, so it was very natural for me to know what type of career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
-        }
-    },
-    "experiences" : {
-        "ptb" : {
-            "title" : "Experiência Profissional",
-            "everisCard" :  {
-                "title" : "Everis Brasil",
-                "badge" : "Atualmente",
-                "leftPanelInfo" : {
-                    "time"      : "2 anos +",
-                    "area"      : "Telecom",
-                    "field"     : "Sustentação"
-                },
-                "rightPaneInfo" : {
-                    "experienceTitle" : "Web Developer, Java, Jr",
-                    "experienceText"  : "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de \"big picture\" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
-                }
-            },
-            "sigmaCard" : {
-                "title" : "Sigma dataserv",
-                "badge" : "Atualmente",
-                "leftPanelInfo" : {
-                    "time"      : "1 ano +",
-                    "area"      : "Governo",
-                    "field"     : "Projetos"
-                },
-                "rightPaneInfo" : {
-                    "experienceTitle" : "Web Developer, Java, Jr",
-                    "experienceText"  : "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
-                }
-            }
-        },
-        "eng" : {
-            "title" : "Professional Experience",
-            "everisCard" :  {
-                "title" : "Everis Brazil",
-                "badge" : "Currently",
-                "leftPanelInfo" : {
-                    "time"      : "2 years +",
-                    "area"      : "Telecom",
-                    "field"     : "Sustainability"
-                },
-                "rightPaneInfo" : {
-                    "experienceTitle" : "Junior Java Web Developer",
-                    "experienceText"  : "In collaboration with everis since 2018, I had the pleasure of being part of an excellent team in the sustainability area on one of the biggest telecom companies in the world. This project introduced me to various new challenges and learnings, a better comprehension of business big picture involving IT and reinforced the importancy of synchrony and team work. Role in CRM, supporting sales systems with fixes in functional and technical level."
-                }
-            },
-            "sigmaCard" : {
-                "title" : "Sigma dataserv",
-                "badge" : "Currently",
-                "leftPanelInfo" : {
-                    "time"      : "1 year +",
-                    "area"      : "Government",
-                    "field"     : "Projects"
-                },
-                "rightPaneInfo" : {
-                    "experienceTitle" : "Junior Java Web Developer",
-                    "experienceText"  : "Collaborating with Sigma was my first experience as a developer, it elevated me to a new higher place in my career and for that I'm very much grateful. Being involved in their projects proven to be challenging but after every release would come the sensation of joy to see everything working as planned. Role in development of new functionalities for systems as a third-party, final client was Paraná's government (CELEPAR) and supporting during validation with client after release."
-                }
-            }
-        }
-    },
-    "academicHistory" : {
-        "ptb" : { 
-            "title" : "Histórico Acadêmico",
-            "speiCard" : {
-                "cardTitle"   : "Colégio SPEI",
-                "course"      : "Tec. em Informática",
-                "hoverCourse" : "Técnico em Informática",
-                "attendance"  : "2012 - 2015",
-                "status"      : "Concluído"
-            },
-            "opetCard" : {
-                "cardTitle"   : "Faculdades OPET",
-                "course"      : "TADS",
-                "hoverCourse" : "Análise e Desenvolvimento de Sistemas",
-                "attendance"  : "2019 - 2021",
-                "status"      : "Cursando"
-            }
-        },
-        "eng" : {
-            "title" : "Academic History",
-            "speiCard" : {
-                "cardTitle"   : "SPEI School",
-                "course"      : "Information Technician",
-                "hoverCourse" : "",
-                "attendance"  : "2012 - 2015",
-                "status"      : "Complete"
-            },
-            "opetCard" : {
-                "cardTitle"   : "OPET College",
-                "course"      : "System A.D",
-                "hoverCourse" : "System Analysis and Development",
-                "attendance"  : "2019 - 2021",
-                "status"      : "On Course"
-            }
-        }
-    },
-    "showcase" : {
-        "ptb" : {
-            "title" : "Projetos",
-            "description" : "Com o passar dos anos, fui acumulando alguns projetos pessoais e acadêmicos os quais foram divertidos de serem desenvolvidos. Nesta seção gostaria de mostrar alguns desses pequenos projetos.",
-            "sonicCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2018 - WIP",
-                    "type"      : "Jogo",
-                    "category"  : "Pessoal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Sonic Phaser Game",
-                    "text"  : "O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem."
-                }
-            },
-            "tinmanCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2021 - WIP",
-                    "type"      : "Portfólio",
-                    "category"  : "Terceiros"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Tinman Art - Portfolio",
-                    "text"  : "Desde muito cedo, meu primo já possuia aptidão para o desenho, algo que sempre foi muito presente em nossa familia. Após muito treinamento e ponderamento, ele optou por seguir na área de Design, visando sempre que pode, aprimorar suas habilidades na ilustração e um dia trabalhar apenas com suas artes e desenhos. Pensando nisso, ele me trouxe a ideia de criar um portfólio em que ele pudesse mostrar suas artes, de maneira simples e rápida, mas não menos elegante. Assim, depois de algumas brainstorms de ideias chegamos em um formato similar a este site meu, porém totalmente voltado para as artes dele. Sinta-se a vontade para conferir nosso trabalho. Se algo estiver meio fora do lugar, pedimos desculpa pois ainda está em um estágio inicial 😇"
-                }
-            },
-            "guessTheColorCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2017",
-                    "type"      : "Jogo",
-                    "category"  : "Pessoal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Um jogo(ou quase) de adivinhar cores",
-                    "text"  : "Neste pequeno projeto você sente na pele a emoção de ser o Akinator, lembra daquele geniozinho que advinha qual personagem você está pensando ? Porém agora é você quem deve advinhar. Parece que jogo virou não é mesmo ?! Tente advinhar o que a máquina está pensando. Mas não tente demais pois acabou que não dei tanta atenção ao refinar as dicas e até na validação das respostas, só pra brincar mesmo 😋"
-                }
-            },
-            "calculatorCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2017",
-                    "type"      : "Utilidade",
-                    "category"  : "Pessoal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Calculadora simples com JS+HTML",
-                    "text"  : "Como não poderia deixar de ser, um dos meus primeiros projetos pessoais foi uma calculadora utilizando JS, Bootstrap e CSS para estilização dos tamanhos. Ela possui um funcionamento básico, apenas com as funções principais, não possui nem a função de multiplicação. Pensei em alterar e aprimorar (e resolver bugs) um pouco mais esse projeto apenas para mostrar aqui, mas meio que iria perder a essência histórica."
-                }
-            }                
-        },
-        "eng" : {
-            "title" : "Showcase",
-            "description" : "Over the years I've accumulated some personal and academic projects I had fun going through. In this section I'd like to show you some of those projects.",
-            "tinmanCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2021 - WIP",
-                    "type"      : "Portfolio",
-                    "category"  : "Others"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Tinman Art - Portfolio",
-                    "text"  : "Since his young age, my cousin already had a gift for drawing, something that has been present in my family for decades. After practice and giving some thought into, he decided he should go on the pursuit of his Design degree, but never giving up to enhance his illustration skills, hoping someday work with his arts and drawings. After some water went under the bridge, he came to me with this idea of putting together a portfolio, whose he could display his arts, in a simple and fast yet fancy way. So, after some brainstorms we came up with a similar design of this site, but with the attention completely turned onto his arts. Please, take a look at our work. If something feels a bit out of place, we apologize, it is still in early stages 😇"
-                }
-            },
-            "sonicCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2018 - WIP",
-                    "type"      : "Game",
-                    "category"  : "Personal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Sonic Phaser Game",
-                    "text"  : "The nostalgic blue hedgehog were always present in my childhood. I have memories of spending hours and hours playing games of the Sonic franchise. On 2018, I attended to an internal workshop in my company focused on the JavaScript language, so I decided I should give it a try and relive him once again in my personal project. This project was really fun to begin, up until this day it remains in a very early stage, much of the time was used to develop the base concepts to walk, jump and animate the character."
-                }               
-            },
-            "guessTheColorCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2017",
-                    "type"      : "Game",
-                    "category"  : "Personal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Dummy Guess The Color Game(ish?)",
-                    "text"  : "In this project you get in the shoes of Akinator, that genie that guesses what character you're thinking on. But now you have to guess what the machine is thinking of. Funny how the tables turn huh ? Take your chances and try to guess, but don't try to hard because it's not so well developed and it has somes bugs 😋"
-                }
-            },
-            "calculatorCard" : {
-                "leftPanelInfo" : {
-                    "date"      : "2017",
-                    "type"      : "Utility",
-                    "category"  : "Personal"
-                },
-                "rightPanelInfo" : {
-                    "title" : "Dummy JS+HTML Calculator",
-                    "text"  : "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator,but it doesn't even have the multiplication function sadly. I planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but it kinda would lose its historic purpose."
-                }
-            }                
-        }
+    "eng": {
+      "age": "{replace_age} years old",
+      "ageShort": "{replace_age}",
+      "yearsExperience": "{replace_year} years of experience",
+      "yearsExperienceShort": "{replace_year}",
+      "coffee": "{replace_cups} Cups of coffee",
+      "coffeeShort": "{replace_cups}",
+      "hint": "Hover your mouse to reveal",
+      "location": "Curitiba, Brazil",
+      "position": "Developer"
     }
+  },
+  "headerGreeting": {
+    "ptb": {
+      "title": "Olá! Prazer em conhecê-lo...",
+      "text": "Meu nome é Tiago, tenho {replace_age} anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento."
+    },
+    "eng": {
+      "title": "Hey! Nice to see you...",
+      "text": "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a child, so it was very natural for me to know what type of career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
+    }
+  },
+  "experiences": {
+    "ptb": {
+      "title": "Experiência Profissional",
+      "logcomexCard": {
+        "title": "Logcomex",
+        "badge": "Atualmente",
+        "leftPanelInfo": {
+          "time": "menos de 1 ano",
+          "area": "Logística e Comex",
+          "field": "Projetos",
+          "methodology": "Ágil / SCRUM"
+        },
+        "rightPaneInfo": {
+          "experienceTitle": "Fullstack Software Engineer",
+          "experienceText": "Após anos de experiência trabalhando com monolitos Java, recebi o convite da Logcomex para auxiliar na revolução do setor de Logística e Comércio Exterior. Diferente de tudo o que já havia trabalhando, tanto tecnicamente quanto negocialmente, a Log possui uma stack tecnologica bastante diversificada, o que logo de cara foi um desafio e sinto que a cada dia aprendo sempre um pouquinho mais. Ritmo de startup e todo mundo engajado para trazer o resultado, está sendo uma ótima experiência trabalhar com essa equipe incrível 💖"
+        }
+      },
+      "everisCard": {
+        "title": "Everis Brazil - NTT DATA",
+        "badge": "Atualmente",
+        "leftPanelInfo": {
+          "time": "2 anos +",
+          "area": "Telecom",
+          "field": "Sustentação/Projetos",
+          "methodology": "Clássico / Cascata"
+        },
+        "rightPaneInfo": {
+          "experienceTitle": "Web Developer, Java, Jr",
+          "experienceText": "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de \"big picture\" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
+        }
+      },
+      "sigmaCard": {
+        "title": "Sigma dataserv",
+        "badge": "Atualmente",
+        "leftPanelInfo": {
+          "time": "1 ano +",
+          "area": "Governo",
+          "field": "Projetos",
+          "methodology": "Clássico / Cascata"
+        },
+        "rightPaneInfo": {
+          "experienceTitle": "Web Developer, Java, Jr",
+          "experienceText": "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
+        }
+      }
+    },
+    "eng": {
+      "title": "Professional Experience",
+      "logcomexCard": {
+        "title": "Logcomex",
+        "badge": "Currently",
+        "leftPanelInfo": {
+          "time": "Less than a year",
+          "area": "Logística e Comex",
+          "field": "Projetos",
+          "methodology": "Agile / SCRUM"
+        },
+        "rightPaneInfo": {
+          "experienceTitle": "Fullstack Software Engineer",
+          "experienceText": "After years working with monolithic Java, i was invited to contribute with Logcomex's revolution on Logitics and International Commerce. This experience turned out to be a challenge, right off the bat. They're different of everything i worked with before, both tecnically and business speaking, making me feel like everyday i learn something new. A startup paced work surrounded with awesome talented people compromised to bring results to the table. It's been a pleasure work here 💖"
+        }
+      },
+      "everisCard": {
+        "title": "Everis Brazil - NTT DATA",
+        "badge": "Currently",
+        "leftPanelInfo": {
+          "time": "2 years +",
+          "area": "Telecom",
+          "field": "Sustainability",
+          "methodology": "Classic / Waterfall"
+        },
+        "rightPaneInfo": {
+          "experienceTitle": "Junior Java Web Developer",
+          "experienceText": "In collaboration with everis since 2018, I had the pleasure of being part of an excellent team in the sustainability area on one of the biggest telecom companies in the world. This project introduced me to various new challenges and learnings, a better comprehension of business big picture involving IT and reinforced the importancy of synchrony and team work. Role in CRM, supporting sales systems with fixes in functional and technical level."
+        }
+      },
+      "sigmaCard": {
+        "title": "Sigma dataserv",
+        "badge": "Currently",
+        "leftPanelInfo": {
+          "time": "1 year +",
+          "area": "Government",
+          "field": "Projects",
+          "methodology": "Classic / Waterfall"
+        },
+        "rightPaneInfo": {
+          "experienceTitle": "Junior Java Web Developer",
+          "experienceText": "Collaborating with Sigma was my first experience as a developer, it elevated me to a new higher place in my career and for that I'm very much grateful. Being involved in their projects proven to be challenging but after every release would come the sensation of joy to see everything working as planned. Role in development of new functionalities for systems as a third-party, final client was Paraná's government (CELEPAR) and supporting during validation with client after release."
+        }
+      }
+    }
+  },
+  "academicHistory": {
+    "ptb": {
+      "title": "Histórico Acadêmico",
+      "speiCard": {
+        "cardTitle": "Colégio SPEI",
+        "course": "Tec. em Informática",
+        "hoverCourse": "Técnico em Informática",
+        "attendance": "2012 - 2015",
+        "status": "Concluído"
+      },
+      "opetCard": {
+        "cardTitle": "Faculdades OPET",
+        "course": "TADS",
+        "hoverCourse": "Análise e Desenvolvimento de Sistemas",
+        "attendance": "2019 - 2021",
+        "status": "Concluído"
+      }
+    },
+    "eng": {
+      "title": "Academic History",
+      "speiCard": {
+        "cardTitle": "SPEI School",
+        "course": "Information Technician",
+        "hoverCourse": "",
+        "attendance": "2012 - 2015",
+        "status": "Complete"
+      },
+      "opetCard": {
+        "cardTitle": "OPET College",
+        "course": "System A.D",
+        "hoverCourse": "System Analysis and Development",
+        "attendance": "2019 - 2021",
+        "status": "Complete"
+      }
+    }
+  },
+  "showcase": {
+    "ptb": {
+      "title": "Projetos",
+      "description": "Com o passar dos anos, fui acumulando alguns projetos pessoais e acadêmicos os quais foram divertidos de serem desenvolvidos. Nesta seção gostaria de mostrar alguns desses pequenos projetos.",
+      "sonicCard": {
+        "leftPanelInfo": {
+          "date": "2018 - WIP",
+          "type": "Jogo",
+          "category": "Pessoal"
+        },
+        "rightPanelInfo": {
+          "title": "Sonic Phaser Game",
+          "text": "O saudoso porco-espinho azul sempre foi um personagem muito presente na minha infância. Me lembro de passar horas jogando titulos como Sonic the hedgehog, Sonic 3, Sonic 3D e outros da saga. Em 2018 participei de um Workshop interno da empresa onde o foco era JavaScript, então resolvi dar uma tentativa e dar vida ao personagem. O jogo acabou ficando em um estágio bem inicial, muito tempo foi consumido desenvolvendo os conceitos de física para andar e animações do personagem."
+        }
+      },
+      "tinmanCard": {
+        "leftPanelInfo": {
+          "date": "2021 - WIP",
+          "type": "Portfólio",
+          "category": "Terceiros"
+        },
+        "rightPanelInfo": {
+          "title": "Tinman Art - Portfolio",
+          "text": "Desde muito cedo, meu primo já possuia aptidão para o desenho, algo que sempre foi muito presente em nossa familia. Após muito treinamento e ponderamento, ele optou por seguir na área de Design, visando sempre que pode, aprimorar suas habilidades na ilustração e um dia trabalhar apenas com suas artes e desenhos. Pensando nisso, ele me trouxe a ideia de criar um portfólio em que ele pudesse mostrar suas artes, de maneira simples e rápida, mas não menos elegante. Assim, depois de algumas brainstorms de ideias chegamos em um formato similar a este site meu, porém totalmente voltado para as artes dele. Sinta-se a vontade para conferir nosso trabalho. Se algo estiver meio fora do lugar, pedimos desculpa pois ainda está em um estágio inicial 😇"
+        }
+      },
+      "guessTheColorCard": {
+        "leftPanelInfo": {
+          "date": "2017",
+          "type": "Jogo",
+          "category": "Pessoal"
+        },
+        "rightPanelInfo": {
+          "title": "Um jogo(ou quase) de adivinhar cores",
+          "text": "Neste pequeno projeto você sente na pele a emoção de ser o Akinator, lembra daquele geniozinho que advinha qual personagem você está pensando ? Porém agora é você quem deve advinhar. Parece que jogo virou não é mesmo ?! Tente advinhar o que a máquina está pensando. Mas não tente demais pois acabou que não dei tanta atenção ao refinar as dicas e até na validação das respostas, só pra brincar mesmo 😋"
+        }
+      },
+      "calculatorCard": {
+        "leftPanelInfo": {
+          "date": "2017",
+          "type": "Utilidade",
+          "category": "Pessoal"
+        },
+        "rightPanelInfo": {
+          "title": "Calculadora simples com JS+HTML",
+          "text": "Como não poderia deixar de ser, um dos meus primeiros projetos pessoais foi uma calculadora utilizando JS, Bootstrap e CSS para estilização dos tamanhos. Ela possui um funcionamento básico, apenas com as funções principais, não possui nem a função de multiplicação. Pensei em alterar e aprimorar (e resolver bugs) um pouco mais esse projeto apenas para mostrar aqui, mas meio que iria perder a essência histórica."
+        }
+      }
+    },
+    "eng": {
+      "title": "Showcase",
+      "description": "Over the years I've accumulated some personal and academic projects I had fun going through. In this section I'd like to show you some of those projects.",
+      "tinmanCard": {
+        "leftPanelInfo": {
+          "date": "2021 - WIP",
+          "type": "Portfolio",
+          "category": "Others"
+        },
+        "rightPanelInfo": {
+          "title": "Tinman Art - Portfolio",
+          "text": "Since his young age, my cousin already had a gift for drawing, something that has been present in my family for decades. After practice and giving some thought into, he decided he should go on the pursuit of his Design degree, but never giving up to enhance his illustration skills, hoping someday work with his arts and drawings. After some water went under the bridge, he came to me with this idea of putting together a portfolio, whose he could display his arts, in a simple and fast yet fancy way. So, after some brainstorms we came up with a similar design of this site, but with the attention completely turned onto his arts. Please, take a look at our work. If something feels a bit out of place, we apologize, it is still in early stages 😇"
+        }
+      },
+      "sonicCard": {
+        "leftPanelInfo": {
+          "date": "2018 - WIP",
+          "type": "Game",
+          "category": "Personal"
+        },
+        "rightPanelInfo": {
+          "title": "Sonic Phaser Game",
+          "text": "The nostalgic blue hedgehog were always present in my childhood. I have memories of spending hours and hours playing games of the Sonic franchise. On 2018, I attended to an internal workshop in my company focused on the JavaScript language, so I decided I should give it a try and relive him once again in my personal project. This project was really fun to begin, up until this day it remains in a very early stage, much of the time was used to develop the base concepts to walk, jump and animate the character."
+        }
+      },
+      "guessTheColorCard": {
+        "leftPanelInfo": {
+          "date": "2017",
+          "type": "Game",
+          "category": "Personal"
+        },
+        "rightPanelInfo": {
+          "title": "Dummy Guess The Color Game(ish?)",
+          "text": "In this project you get in the shoes of Akinator, that genie that guesses what character you're thinking on. But now you have to guess what the machine is thinking of. Funny how the tables turn huh ? Take your chances and try to guess, but don't try to hard because it's not so well developed and it has somes bugs 😋"
+        }
+      },
+      "calculatorCard": {
+        "leftPanelInfo": {
+          "date": "2017",
+          "type": "Utility",
+          "category": "Personal"
+        },
+        "rightPanelInfo": {
+          "title": "Dummy JS+HTML Calculator",
+          "text": "It couldn't be different ! One of my first personal projects was a dummy calculator using JS, Bootstrap and CSS for styling sizes. It does the basics, it has only the main operations of a simple calculator,but it doesn't even have the multiplication function sadly. I planned on giving it some more love and refactoring it (solve some bugs and stuff like that) to display it here, but it kinda would lose its historic purpose."
+        }
+      }
+    }
+  }
 }

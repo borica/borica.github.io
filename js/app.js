@@ -1,3 +1,6 @@
+//Global control variables
+let isAnimating = false;
+
 $(() => {
     translationStart("ptb");
     randomProfilePic();
@@ -32,11 +35,20 @@ function randomProfilePic(){
 }
 
 //Reveal/unreveal the easteregg
-$("#profile-avatar-container").hover(function(){
-    $("#profile-picture").fadeOut();
-    console.log("MouseIn");
-}, function(){
-    $("#profile-picture").fadeIn();
+$("#profile-avatar-container").hover(() => {
+    if(!isAnimating){
+        isAnimating = true;
+        $("#profile-picture").fadeOut(250, ()=>{
+            isAnimating = false;
+        });
+    }
+}, () => {
+    if(!isAnimating){
+        isAnimating = true;
+        $("#profile-picture").fadeIn(250, ()=>{
+            isAnimating = false;
+        });
+    }
 });
 
 //Lvl up progress bars
