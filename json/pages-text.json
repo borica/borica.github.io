@@ -9,7 +9,7 @@
       "coffeeShort": "{replace_cups}",
       "hint": "Passe o mouse ou toque para revelar",
       "location": "Curitiba, Brasil",
-      "position": "Desenvolvedor"
+      "position": "Eng. de Software"
     },
     "eng": {
       "age": "{replace_age} years old",
@@ -20,7 +20,7 @@
       "coffeeShort": "{replace_cups}",
       "hint": "Hover/touch the bars to reveal",
       "location": "Curitiba, Brazil",
-      "position": "Developer"
+      "position": "Software Engineer"
     }
   },
   "headerGreeting": {
