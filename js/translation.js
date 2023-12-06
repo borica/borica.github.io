@@ -301,6 +301,11 @@ function translate(json, language) {
             if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-rightPanelInfo-text")) {
                 elementsToTranslate[i].textContent = json.showcase.eng.calculatorCard.rightPanelInfo.text;
             }
+
+            //Talks section
+            if(elementsToTranslate[i].classList.contains("talks-title")) {
+                elementsToTranslate[i].textContent = json.talks.eng.title;
+            }
         }
     }
     
@@ -514,8 +519,8 @@ function translate(json, language) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.guessTheColorCard.rightPanelInfo.text;
             }
 
-             //Calculator Card
-             if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-date")) {
+            //Calculator Card
+            if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-date")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.leftPanelInfo.date;
             }
             if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-leftPanelInfo-type")) {
@@ -529,6 +534,11 @@ function translate(json, language) {
             }
             if(elementsToTranslate[i].classList.contains("showcase-calculatorCard-rightPanelInfo-text")) {
                 elementsToTranslate[i].textContent = json.showcase.ptb.calculatorCard.rightPanelInfo.text;
+            }
+
+            //Talks section
+            if(elementsToTranslate[i].classList.contains("talks-title")) {
+                elementsToTranslate[i].textContent = json.talks.ptb.title;
             }
         }
     }

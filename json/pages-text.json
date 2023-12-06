@@ -258,5 +258,13 @@
         }
       }
     }
+  },
+  "talks": {
+    "ptb": {
+      "title": "Palestras"
+    },
+    "eng": {
+      "title": "Talks"
+    }
   }
 }
