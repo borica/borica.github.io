@@ -25,12 +25,12 @@
   },
   "headerGreeting": {
     "ptb": {
-      "title": "Olá! Prazer em conhecê-lo...",
-      "text": "Meu nome é Tiago, tenho {replace_age} anos, estudo e trabalho com desenvolvimento de sistemas. Desde muito cedo, tive contato com a internet, aos 11 anos, eu ja tinha meu blog pessoal onde me aventurava alterando o HTML e o CSS do ainda resiliente Blogger. Desde então, estudei e já estou a pouco mais de 3 anos trabalhando com diversas tecnologias em diversos projetos. Gostaria de continuar colaborando com ótimas equipes e expandir meu conhecimento."
+      "title": "Olá, é ótimo vê-lo por aqui!",
+      "text": "Atualmente, faço parte da equipe de desenvolvedores da Logcomex, uma empresa focada em inteligência no comércio exterior e logística internacional. Meu trabalho envolve a construção de soluções de software escaláveis para apresentar informações de maneira inteligente e personalizável, criando dashboards para análises comparativas, visualizações detalhadas e muitos outros insights, utilizando dados do nosso data warehouse, no estilo (BI).\n\nMinha primeira experiência com programação foi com o PHP, por volta de 2015, enquanto eu estava obtendo meu primeiro diploma de técnico em informática. Posteriormente, trabalhei com Java (EE), desenvolvendo e mantendo aplicações web, inicialmente em uma abordagem monolítica com Java e Primefaces no JSF e, posteriormente, com APIs Java e outros frameworks no frontend com JS.\n\nNos últimos anos, meu paradigma de programação mudou novamente, e passei a trabalhar com microserviços aqui na Logcomex. Isso foi muito enriquecedor para minha carreira, devido ao desafio de orquestrar e coreografar serviços, bem como trabalhar com diferentes linguagens na mesma infraestrutura. Atualmente, na minha equipe, mantenho principalmente serviços em PHP (Lumen/Laravel) e Python (FastAPI), e meu trabalho se concentra principalmente no backend, fornecendo insights de arquitetura e desenvolvendo soluções."
     },
     "eng": {
-      "title": "Hey! Nice to see you...",
-      "text": "My name is Tiago, I'm {replace_age} years old. I work and study system's development. I've been messing around with the internet since I was a child, so it was very natural for me to know what type of career I wanted to invest on. When I was eleven years old, I had a blog, in which I would venture editing the HTML and CSS. I miss blogger. Time went on and I've been studying and working now over three years with various technologies in many projects. My plan, is to continue learning and working with great teams."
+      "title": "Hello, it's great to see you here!",
+      "text": "Currently, I'm a part of the development team at Logcomex, a company focused on intelligence in foreign trade and international logistics. My work involves building scalable software solutions to present information in an intelligent and customizable manner, creating dashboards for comparative analysis, detailed visualizations, and many other insights using information from our data warehouse in a BI fashion.\n\nMy first experience with programming was with PHP, around 2015, while I was pursuing my IT Technician degree. Later on, I worked with Java (EE), developing and maintaining web servers, initially in a monolithic approach with Java and Primefaces in JSF, and later with Java APIs and other frameworks on the frontend with JS.\n\nIn more recent years, my programming paradigm shifted once again, and I started working with microservices here at Logcomex. This has been very enriching for my career, given the challenge of orchestrating and choreographing those services, as well as working with different languages in the same infrastructure. Currently, in my team, I primarily maintain services in PHP (Lumen/Laravel) and Python (FastAPI), and my work mainly focuses on the backend, providing architectural insights and developing solutions."
     }
   },
   "experiences": {
@@ -43,10 +43,10 @@
           "time": "menos de 1 ano",
           "area": "Logística e Comex",
           "field": "Projetos",
-          "methodology": "Ágil / SCRUM"
+          "methodology": "SCRUM"
         },
         "rightPaneInfo": {
-          "experienceTitle": "Fullstack Software Engineer",
+          "experienceTitle": "FULLSTACK SOFTWARE ENGINEER",
           "experienceText": "Após anos de experiência trabalhando com monolitos Java, recebi o convite da Logcomex para auxiliar na revolução do setor de Logística e Comércio Exterior. Diferente de tudo o que já havia trabalhando, tanto tecnicamente quanto negocialmente, a Log possui uma stack tecnologica bastante diversificada, o que logo de cara foi um desafio e sinto que a cada dia aprendo sempre um pouquinho mais. Ritmo de startup e todo mundo engajado para trazer o resultado, está sendo uma ótima experiência trabalhar com essa equipe incrível 💖"
         }
       },
@@ -57,11 +57,11 @@
           "time": "2 anos +",
           "area": "Telecom",
           "field": "Sustentação/Projetos",
-          "methodology": "Clássico / Cascata"
+          "methodology": "Cascata"
         },
         "rightPaneInfo": {
-          "experienceTitle": "Web Developer, Java, Jr",
-          "experienceText": "Colaborando desde 2018 na everis, tive o prazer de fazer parte de um excelente time de sustentação em uma das gigantes da Telecom mundial. Um projeto que me apresentou a vários novos desafios e tecnologias, maior compreensão de \"big picture\" negocial dentro de IT e reforçou ainda mais a ideia do quão importante é a sincronia e o trabalho em equipe. Atuação na área de CRM prestando suporte para sistemas de vendas com correções nível funcional e técnico."
+          "experienceTitle": "DESENVOLVEDOR JAVA JR.",
+          "experienceText": "Minha contribuição com a everis pode ser dividida em duas etapas principais:\n\n1 - Trabalhando para o cliente Telefônica (retail) na área de BSS (Business Support Services) e CRM (Customer Relationship Management) no suporte de nível N2 e N3. Grande parte desse trabalho envolvia a atualização de dados em produção em tempo real, atuando para desbloquear e possibilitar o negócio dentro do SLA de Sustentação. Nessa experiência, aprendi a trabalhar com eficiência e cuidado, bem como aprimorei minhas habilidades em SQL e PL/SQL ao trabalhar com bases de dados Oracle.\n\n2 - Trabalhando para o cliente Telefônica (corporate) na área corporativa de desenvolvimento de sistemas. Nessa fase da experiência, tive o prazer de trabalhar em uma equipe com experiência avançada, onde pude aprimorar ainda mais meus conhecimentos de programação. Também atendi a uma demanda de desenvolvimento em Siebel, algo que nunca havia feito antes."
         }
       },
       "sigmaCard": {
@@ -71,11 +71,11 @@
           "time": "1 ano +",
           "area": "Governo",
           "field": "Projetos",
-          "methodology": "Clássico / Cascata"
+          "methodology": "Cascata"
         },
         "rightPaneInfo": {
-          "experienceTitle": "Web Developer, Java, Jr",
-          "experienceText": "Sendo minha primeira experiência na área dev, a Sigma me elevou a um novo patamar na minha carreira. Os projetos foram desafiadores e ao final de cada entrega sempre a satisfação de ver a demanda funcionando. Atuação na área de desenvolvimento de funcionalidades em sistemas do governo do paraná (CELEPAR) e homologação com o cliente."
+          "experienceTitle": "DESENVOLVEDOR JAVA JR.",
+          "experienceText": "Sigma foi a minha primeira experiência em desenvolvimento web. Essa experiência elevou tanto minhas habilidades interpessoais quanto técnicas para um novo patamar. Sendo apresentado a novos desafios todos os dias, minha jornada na Sigma foi repleta de obstáculos, mas eu estava cercado por pessoas talentosas e experientes das quais aprendi muito. Sou eternamente grato por essa experiência e pela quantidade de aprendizado que obtive dela."
         }
       }
     },
@@ -88,10 +88,10 @@
           "time": "Less than a year",
           "area": "Logística e Comex",
           "field": "Projetos",
-          "methodology": "Agile / SCRUM"
+          "methodology": "SCRUM"
         },
         "rightPaneInfo": {
-          "experienceTitle": "Fullstack Software Engineer",
+          "experienceTitle": "FULLSTACK SOFTWARE ENGINEER",
           "experienceText": "After years working with monolithic Java, i was invited to contribute with Logcomex's revolution on Logitics and International Commerce. This experience turned out to be a challenge, right off the bat. They're different of everything i worked with before, both tecnically and business speaking, making me feel like everyday i learn something new. A startup paced work surrounded with awesome talented people compromised to bring results to the table. It's been a pleasure work here 💖"
         }
       },
@@ -102,11 +102,11 @@
           "time": "2 years +",
           "area": "Telecom",
           "field": "Sustainability",
-          "methodology": "Classic / Waterfall"
+          "methodology": "Waterfall"
         },
         "rightPaneInfo": {
-          "experienceTitle": "Junior Java Web Developer",
-          "experienceText": "In collaboration with everis since 2018, I had the pleasure of being part of an excellent team in the sustainability area on one of the biggest telecom companies in the world. This project introduced me to various new challenges and learnings, a better comprehension of business big picture involving IT and reinforced the importancy of synchrony and team work. Role in CRM, supporting sales systems with fixes in functional and technical level."
+          "experienceTitle": "JAVA DEVELOPER JR.",
+          "experienceText": "My contribution to everis can be split into two main stages:\n\n1 - Working for customer Telefônica (retail) in the BSS (Business Support Services) and CRM (Customer Relationship Management) area, providing N2 and N3 support. Much of this work involved real-time data updates in production, working to unlock and enable business operations within Support SLAs. In this experience, I learned to work efficiently and meticulously, as well as further developed my SQL and PL/SQL skills while working with Oracle databases.\n\n2 - Working for customer Telefônica (corporate) system development area. In this stage of my experience, I had the pleasure of working in a team with advanced expertise coworkers, where I could further enhance my programming knowledge. I was also assigned to develop a feature in Siebel, something I had never done before."
         }
       },
       "sigmaCard": {
@@ -116,11 +116,11 @@
           "time": "1 year +",
           "area": "Government",
           "field": "Projects",
-          "methodology": "Classic / Waterfall"
+          "methodology": "Waterfall"
         },
         "rightPaneInfo": {
-          "experienceTitle": "Junior Java Web Developer",
-          "experienceText": "Collaborating with Sigma was my first experience as a developer, it elevated me to a new higher place in my career and for that I'm very much grateful. Being involved in their projects proven to be challenging but after every release would come the sensation of joy to see everything working as planned. Role in development of new functionalities for systems as a third-party, final client was Paraná's government (CELEPAR) and supporting during validation with client after release."
+          "experienceTitle": "JAVA DEVELOPER JR.",
+          "experienceText": "Sigma was my first experience in web development. This experience elevated both my soft and hard skills to a new level. Introduced to new problems everyday, my journey at Sigma was full of challenges, but i was surrounded of talented experienced people from whom i learned a lot from. I'm forever grateful for this experience and for the amount of learning i took from it."
         }
       }
     }
